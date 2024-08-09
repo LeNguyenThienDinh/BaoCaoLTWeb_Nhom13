@@ -1,0 +1,14 @@
+@{fa-css-prefix}-internet-explorer:before { content: @fa-var-internet-explorer; }
+.@{fa-css-prefix}-invision:before { content: @fa-var-invision; }
+.@{fa-css-prefix}-ioxhost:before { content: @fa-var-ioxhost; }
+.@{fa-css-prefix}-italic:before { content: @fa-var-italic; }
+.@{fa-css-prefix}-itch-io:before { content: @fa-var-itch-io; }
+.@{fa-css-prefix}-itunes:before { content: @fa-var-itunes; }
+.@{fa-css-prefix}-itunes-note:before { content: @fa-var-itunes-note; }
+.@{fa-css-prefix}-java:before { content: @fa-var-java; }
+.@{fa-css-prefix}-jedi:before { content: @fa-var-jedi; }
+.@{fa-css-prefix}-jedi-order:before { content: @fa-var-jedi-order; }
+.@{fa-css-prefix}-jenkins:before { content: @fa-var-jenkins; }
+.@{fa-css-prefix}-jira:before { content: @fa-var-jira; }
+.@{fa-css-prefix}-joget:before { content: @fa-var-joget; }
+.@{fa-css-prefix}-joint:before { content: @fa

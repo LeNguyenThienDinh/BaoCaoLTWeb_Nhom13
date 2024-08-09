@@ -1,0 +1,100 @@
+ - 5.13.0
+    - 5.14.0
+  label: House User
+  search:
+    terms:
+      - covid-19
+      - home
+      - isolation
+      - quarantine
+  styles:
+    - solid
+  unicode: e065
+  voted: false
+houzz:
+  changes:
+    - '4.4'
+    - 5.0.0
+    - 5.0.9
+    - 5.8.0
+  label: Houzz
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f27c
+  voted: false
+hryvnia:
+  changes:
+    - 5.4.0
+  label: Hryvnia
+  search:
+    terms:
+      - currency
+      - money
+      - ukraine
+      - ukrainian
+  styles:
+    - solid
+  unicode: f6f2
+  voted: true
+html5:
+  changes:
+    - '3.1'
+    - 5.0.0
+  label: HTML 5 Logo
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f13b
+  voted: false
+hubspot:
+  changes:
+    - 5.0.0
+  label: HubSpot
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3b2
+  voted: false
+i-cursor:
+  changes:
+    - '4.4'
+    - 5.0.0
+  label: I Beam Cursor
+  search:
+    terms:
+      - editing
+      - i-beam
+      - type
+      - writing
+  styles:
+    - solid
+  unicode: f246
+  voted: false
+ice-cream:
+  changes:
+    - 5.7.0
+    - 5.11.0
+    - 5.11.1
+  label: Ice Cream
+  search:
+    terms:
+      - chocolate
+      - cone
+      - dessert
+      - frozen
+      - scoop
+      - sorbet
+      - vanilla
+      - yogurt
+  styles:
+    - solid
+  unicode: f810
+  voted: false
+icicles:
+  changes:
+    - 5.6.0
+  label: Icic

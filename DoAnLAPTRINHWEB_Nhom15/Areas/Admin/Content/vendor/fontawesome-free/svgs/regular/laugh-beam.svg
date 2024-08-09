@@ -1,0 +1,74 @@
+bel: Record Vinyl
+  search:
+    terms:
+      - LP
+      - album
+      - analog
+      - music
+      - phonograph
+      - sound
+  styles:
+    - solid
+  unicode: f8d9
+  voted: false
+recycle:
+  changes:
+    - '4.1'
+    - 5.0.0
+  label: Recycle
+  search:
+    terms:
+      - Waste
+      - compost
+      - garbage
+      - reuse
+      - trash
+  styles:
+    - solid
+  unicode: f1b8
+  voted: false
+red-river:
+  changes:
+    - 5.0.0
+  label: red river
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3e3
+  voted: false
+reddit:
+  changes:
+    - '4.1'
+    - 5.0.0
+  label: reddit Logo
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f1a1
+  voted: false
+reddit-alien:
+  changes:
+    - '4.5'
+    - 5.0.0
+  label: reddit Alien
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f281
+  voted: false
+reddit-square:
+  changes:
+    - '4.1'
+    - 5.0.0
+  label: reddit Square
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f1a2
+  voted: false
+redhat:
+  chan

@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "ShowChiTietDonHang";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<ChiTietDonHang>
+
+<style>
+    div .product {
+        display: flex;
+        text-align: center;
+    }
+
+    .form_search_product {
+        width: 15rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+        .form_search_product input {
+            border: 1px solid black;
+            width: 10rem;
+            border-radius: 5px;
+            height: 2.5rem;
+        }
+
+    .tb {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .cnsp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+
+    .tb td {
+        width: 20rem;
+    }
+
+    center {
+        padding-top: 20px;
+    }
+
+        center p {
+            text-transform: uppercase;
+            color: blue;
+            border-bottom: 2px solid black;
+        }
+
+    .btn_TC {
+        width: 4rem;
+        text-align: center;
+        border: none;
+    }
+
+        .btn_TC a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    .btn_delete {
+        background: #d01919;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_delete:hover {
+            background: red;
+        }
+
+    .btn_edit {
+        background: #1b2f9d;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_edit:hover {
+            background: blue;
+        }
+</style>
+<div>
+    <h2 style="text-align:center">THÔNG TIN CHI TIẾT ĐƠN HÀNG</h2>
+    <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/ShowDonHang">RESET CHI TIẾT ĐƠN HÀNG</a></button><br /><br />
+    <div class="product">
+
+        <table class="table table-bordered table-responsive tb">
+            <tr>
+                <th>Mã Đơn Hàng</th>
+                <th>Tên Đăng Nhập</th>
+                <th>Ngày Đặt</th>
+                <th>Email</th>
+                <th>Họ Tên</th>
+                <th>Số Điện Thoại</th>
+                <th>Chi Tiết Địa Chỉ</th>
+                <th>Tổng Giá Trị</th>
+                <th>Hình Thức Thanh Toán</th>
+                <th>Trạng Thái</th>
+                <th>Mã Sản Phẩm</th>
+                <th>Số Lượng</th>
+                <th>Tổng Tiền</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaDonHang</td>
+                    <td>@item.TenDN</td>
+                    <td>@item.NgayDat</td>
+                    <td>@item.Email</td>
+                    <td>@item.HoTen</td>
+                    <td>@item.SoDienThoai</td>
+                    <td>@item.ChiTietDiaChi</td>
+                    <td>@item.TongGiaTri</td>
+                    <td>@item.HinhThucThanhToan</td>
+                    <td>@item.TrangThai</td>
+                    <td>@item.MaSanPham</td>
+                    <td>@item.SoLuong</td>
+                    <td>@item.ThanhTien</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+
+
+
+

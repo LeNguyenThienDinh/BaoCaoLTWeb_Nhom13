@@ -1,0 +1,229 @@
+nicode: f273
+  voted: false
+calendar-week:
+  changes:
+    - 5.6.0
+    - 5.10.2
+  label: Calendar with Week Focus
+  search:
+    terms:
+      - date
+      - detail
+      - event
+      - focus
+      - schedule
+      - single week
+      - time
+      - today
+      - when
+  styles:
+    - solid
+  unicode: f784
+  voted: true
+camera:
+  changes:
+    - '1'
+    - 5.0.0
+  label: camera
+  search:
+    terms:
+      - image
+      - lens
+      - photo
+      - picture
+      - record
+      - shutter
+      - video
+  styles:
+    - solid
+  unicode: f030
+  voted: false
+camera-retro:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.10.1
+  label: Retro Camera
+  search:
+    terms:
+      - image
+      - lens
+      - photo
+      - picture
+      - record
+      - shutter
+      - video
+  styles:
+    - solid
+  unicode: f083
+  voted: false
+campground:
+  changes:
+    - 5.4.0
+  label: Campground
+  search:
+    terms:
+      - camping
+      - fall
+      - outdoors
+      - teepee
+      - tent
+      - tipi
+  styles:
+    - solid
+  unicode: f6bb
+  voted: false
+canadian-maple-leaf:
+  changes:
+    - 5.6.0
+    - 5.8.0
+  label: Canadian Maple Leaf
+  search:
+    terms:
+      - canada
+      - flag
+      - flora
+      - nature
+      - plant
+  styles:
+    - brands
+  unicode: f785
+candy-cane:
+  changes:
+    - 5.6.0
+    - 5.10.1
+  label: Candy Cane
+  search:
+    terms:
+      - candy
+      - christmas
+      - holiday
+      - mint
+      - peppermint
+      - striped
+      - xmas
+  styles:
+    - solid
+  unicode: f786
+cannabis:
+  changes:
+    - 5.1.0
+  label: Cannabis
+  search:
+    terms:
+      - bud
+      - chronic
+      - drugs
+      - endica
+      - endo
+      - ganja
+      - marijuana
+      - mary jane
+      - pot
+      - reefer
+      - sativa
+      - spliff
+      - weed
+      - whacky-tabacky
+  styles:
+    - solid
+  unicode: f55f
+  voted: false
+capsules:
+  changes:
+    - 5.0.7
+  label: Capsules
+  search:
+    terms:
+      - drugs
+      - medicine
+      - pills
+      - prescription
+  styles:
+    - solid
+  unicode: f46b
+  voted: false
+car:
+  changes:
+    - '4.1'
+    - 5.0.0
+    - 5.2.0
+  label: Car
+  search:
+    terms:
+      - auto
+      - automobile
+      - sedan
+      - transportation
+      - travel
+      - vehicle
+  styles:
+    - solid
+  unicode: f1b9
+  voted: false
+car-alt:
+  changes:
+    - 5.2.0
+    - 5.11.0
+    - 5.11.1
+  label: Alternate Car
+  search:
+    terms:
+      - auto
+      - automobile
+      - sedan
+      - transportation
+      - travel
+      - vehicle
+  styles:
+    - solid
+  unicode: f5de
+  voted: false
+car-battery:
+  changes:
+    - 5.2.0
+  label: Car Battery
+  search:
+    terms:
+      - auto
+      - electric
+      - mechanic
+      - power
+  styles:
+    - solid
+  unicode: f5df
+  voted: false
+car-crash:
+  changes:
+    - 5.2.0
+  label: Car Crash
+  search:
+    terms:
+      - accident
+      - auto
+      - automobile
+      - insurance
+      - sedan
+      - transportation
+      - vehicle
+      - wreck
+  styles:
+    - solid
+  unicode: f5e1
+  voted: false
+car-side:
+  changes:
+    - 5.2.0
+  label: Car Side
+  search:
+    terms:
+      - auto
+      - automobile
+      - sedan
+      - transportation
+      - travel
+      - vehicle
+  styles:
+    - solid
+  unicode: f5e4
+  voted: f

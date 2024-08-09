@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ProductByType";
+    Layout = "~/Views/Shared/_LayoutProduct.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<Products>
+
+<style>
+    .colorStar i {
+        color: goldenrod
+    }
+</style>
+
+@if (Model.Any())
+{
+    <div class="product-container-small">
+        @foreach (var item in Model)
+        {
+            <div class="box">
+                <a href="/HomePage/HomeDetail?masp=@item.MaSanPham"><img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@item.Anh" alt=""></a>
+                <h3>@item.TenSanPham</h3>
+                <div class="star, colorStar" style="padding-bottom:10px;">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    Đã bán (@item.SanPhamDaBan)
+                </div>
+                <div class="content">
+                    <span>@item.Gia</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h2 style="color:red;margin:auto;font-size:2rem;text-transform:uppercase;">Không có sản phẩm nào!</h2>
+}
+

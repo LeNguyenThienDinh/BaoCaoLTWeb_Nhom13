@@ -1,0 +1,132 @@
+:root {
+    --main-color: rgba(255, 199, 153, 0.877);
+    --form-bg: rgba(0, 0, 0, 0.8);
+    --border-color: rgba(255, 199, 153, 0.877);
+    --form-color: #c6c6c6;
+    --form-input-bg: rgba(143, 141, 141, 0.22);
+
+    --border-radius: 10px;
+    --form-logo-size: 200px;
+    --form-max-width: 500px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.forgotpass {
+    
+    font-family: "Source Sans Pro", sans-serif;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+.form {
+    padding: 30px 40px;
+    background-color: var(--form-bg);
+    border-radius: var(--border-radius);
+    color: var(--form-color);
+    text-align: center;
+    width: 100%;
+    max-width: var(--form-max-width);
+}
+
+.form-logo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-logo img {
+    width: var(--form-logo-size);
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    background-color: var(--form-input-bg);
+    border: 2px solid transparent;
+    height: 46px;
+    width: 100%;
+    position: relative;
+    color: var(--form-color);
+    border-radius: var(--border-radius);
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+.form-input::placeholder {
+    color: var(--form-color);
+}
+
+.form-input:focus {
+    border: 2px solid var(--border-color);
+}
+
+.form-input-icon {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-input-icon.err {
+    color: #c0392b;
+}
+
+.form-input-icon.success {
+    color: #27ae60;
+}
+
+.form-group.err .form-input-icon.err,
+.form-group.success .form-input-icon.success {
+    transform: scale(1);
+}
+
+.form-input-err-msg {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #c0392b;
+}
+
+.form-txt {
+    margin-top: 15px;
+    font-size: 20px;
+    display: block;
+}
+
+.form-txt a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.form-txt a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    .form {
+        height: 100vh;
+        width: 100%;
+        max-width: unset;
+        padding: 50px 30px;
+        border-radius: 0;
+    }
+}   

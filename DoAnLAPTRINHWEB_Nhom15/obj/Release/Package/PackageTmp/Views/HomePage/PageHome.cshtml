@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "PageHome";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<Products>
+
+<style>
+    .colorStar i {
+        color: goldenrod;
+    }
+</style>
+
+
+<div class="product-container">
+    @foreach (var item in Model)
+    {
+        <div class="box">
+            <a href="/HomePage/HomeDetail?masp=@item.MaSanPham"><img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@item.Anh" alt=""></a>
+            <h3>@item.TenSanPham</h3>
+            <div class="star, colorStar" style="padding-bottom:10px;">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                Đã bán (@item.SanPhamDaBan)
+            </div>
+            <div class="content">
+                <span>@item.Gia</span>
+                <a href="/HomePage/AddGioHang?MaSP=@item.MaSanPham"><i class="fa-solid fa-cart-plus"></i></a>
+                <a href="/HomePage/HomeGioHang"><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </div>
+        </div>
+    }
+</div>
+

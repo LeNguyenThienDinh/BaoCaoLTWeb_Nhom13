@@ -1,0 +1,97 @@
+ suit
+  styles:
+    - solid
+  unicode: f4fb
+  voted: false
+user-check:
+  changes:
+    - 5.0.11
+  label: User Check
+  search:
+    terms:
+      - accept
+      - check
+      - person
+      - verified
+  styles:
+    - solid
+  unicode: f4fc
+  voted: false
+user-circle:
+  changes:
+    - '4.7'
+    - 5.0.0
+    - 5.0.3
+    - 5.0.11
+    - 5.11.0
+    - 5.11.1
+  label: User Circle
+  search:
+    terms:
+      - account
+      - avatar
+      - head
+      - human
+      - man
+      - person
+      - profile
+  styles:
+    - solid
+    - regular
+  unicode: f2bd
+  voted: false
+user-clock:
+  changes:
+    - 5.0.11
+  label: User Clock
+  search:
+    terms:
+      - alert
+      - person
+      - remind
+      - time
+  styles:
+    - solid
+  unicode: f4fd
+  voted: false
+user-cog:
+  changes:
+    - 5.0.11
+  label: User Cog
+  search:
+    terms:
+      - admin
+      - cog
+      - person
+      - settings
+  styles:
+    - solid
+  unicode: f4fe
+  voted: false
+user-edit:
+  changes:
+    - 5.0.11
+  label: User Edit
+  search:
+    terms:
+      - edit
+      - pen
+      - pencil
+      - person
+      - update
+      - write
+  styles:
+    - solid
+  unicode: f4ff
+  voted: false
+user-friends:
+  changes:
+    - 5.0.11
+  label: User Friends
+  search:
+    terms:
+      - group
+      - people
+      - person
+      - team
+      - us

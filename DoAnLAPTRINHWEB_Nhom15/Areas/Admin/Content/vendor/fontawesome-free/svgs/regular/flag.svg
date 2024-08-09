@@ -1,0 +1,73 @@
+anges:
+    - 5.9.0
+  label: Border None
+  search:
+    terms:
+      - cell
+      - grid
+      - outline
+      - stroke
+      - table
+  styles:
+    - solid
+  unicode: f850
+  voted: false
+border-style:
+  changes:
+    - 5.9.0
+  label: Border Style
+  search:
+    terms: []
+  styles:
+    - solid
+  unicode: f853
+  voted: false
+bowling-ball:
+  changes:
+    - 5.0.5
+    - 5.11.0
+    - 5.11.1
+  label: Bowling Ball
+  search:
+    terms:
+      - alley
+      - candlepin
+      - gutter
+      - lane
+      - strike
+      - tenpin
+  styles:
+    - solid
+  unicode: f436
+  voted: false
+box:
+  changes:
+    - 5.0.7
+  label: Box
+  search:
+    terms:
+      - archive
+      - container
+      - package
+      - storage
+  styles:
+    - solid
+  unicode: f466
+  voted: false
+box-open:
+  changes:
+    - 5.0.9
+    - 5.7.0
+  label: Box Open
+  search:
+    terms:
+      - archive
+      - container
+      - package
+      - storage
+      - unpack
+  styles:
+    - solid
+  unicode: f49e
+  voted: false
+box

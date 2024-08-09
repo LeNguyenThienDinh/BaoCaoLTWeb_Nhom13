@@ -1,0 +1,58 @@
+ing system
+      - os
+  styles:
+    - brands
+  unicode: f789
+  voted: true
+certificate:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+  label: certificate
+  search:
+    terms:
+      - badge
+      - star
+      - verified
+  styles:
+    - solid
+  unicode: f0a3
+  voted: false
+chair:
+  changes:
+    - 5.4.0
+    - 5.11.0
+  label: Chair
+  search:
+    terms:
+      - furniture
+      - seat
+      - sit
+  styles:
+    - solid
+  unicode: f6c0
+  voted: true
+chalkboard:
+  changes:
+    - 5.0.13
+  label: Chalkboard
+  search:
+    terms:
+      - blackboard
+      - learning
+      - school
+      - teaching
+      - whiteboard
+      - writing
+  styles:
+    - solid
+  unicode: f51b
+  voted: false
+chalkboard-teacher:
+  changes:
+    - 5.0.13
+  label: Chalkboard Teacher
+  search:
+   

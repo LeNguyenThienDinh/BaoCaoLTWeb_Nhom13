@@ -1,0 +1,16 @@
+var-dev; }
+.@{fa-css-prefix}-deviantart:before { content: @fa-var-deviantart; }
+.@{fa-css-prefix}-dharmachakra:before { content: @fa-var-dharmachakra; }
+.@{fa-css-prefix}-dhl:before { content: @fa-var-dhl; }
+.@{fa-css-prefix}-diagnoses:before { content: @fa-var-diagnoses; }
+.@{fa-css-prefix}-diaspora:before { content: @fa-var-diaspora; }
+.@{fa-css-prefix}-dice:before { content: @fa-var-dice; }
+.@{fa-css-prefix}-dice-d20:before { content: @fa-var-dice-d20; }
+.@{fa-css-prefix}-dice-d6:before { content: @fa-var-dice-d6; }
+.@{fa-css-prefix}-dice-five:before { content: @fa-var-dice-five; }
+.@{fa-css-prefix}-dice-four:before { content: @fa-var-dice-four; }
+.@{fa-css-prefix}-dice-one:before { content: @fa-var-dice-one; }
+.@{fa-css-prefix}-dice-six:before { content: @fa-var-dice-six; }
+.@{fa-css-prefix}-dice-three:before { content: @fa-var-dice-three; }
+.@{fa-css-prefix}-dice-two:before { content: @fa-var-dice-two; }
+.@{fa-css-prefix}-digg:befo

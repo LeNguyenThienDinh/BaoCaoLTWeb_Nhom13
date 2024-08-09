@@ -1,0 +1,92 @@
+
+  label: Alternate Mobile
+  search:
+    terms:
+      - apple
+      - call
+      - cell phone
+      - cellphone
+      - device
+      - iphone
+      - number
+      - screen
+      - telephone
+  styles:
+    - solid
+  unicode: f3cd
+  voted: false
+modx:
+  changes:
+    - '4.5'
+    - 5.0.0
+  label: MODX
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f285
+  voted: false
+monero:
+  changes:
+    - 5.0.0
+  label: Monero
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3d0
+  voted: false
+money-bill:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.0.13
+  label: Money Bill
+  search:
+    terms:
+      - buy
+      - cash
+      - checkout
+      - money
+      - payment
+      - price
+      - purchase
+  styles:
+    - solid
+  unicode: f0d6
+  voted: false
+money-bill-alt:
+  changes:
+    - 5.0.0
+    - 5.0.13
+  label: Alternate Money Bill
+  search:
+    terms:
+      - buy
+      - cash
+      - checkout
+      - money
+      - payment
+      - price
+      - purchase
+  styles:
+    - solid
+    - regular
+  unicode: f3d1
+  voted: false
+money-bill-wave:
+  changes:
+    - 5.0.13
+  label: Wavy Money Bill
+  search:
+    terms:
+      - buy
+      - cash
+      - checkout
+      - money
+      - payment
+      - price
+      - purchase
+  styles:
+    - solid
+  un

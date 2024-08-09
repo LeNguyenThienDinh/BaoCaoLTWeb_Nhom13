@@ -1,0 +1,26 @@
+al: "\e06a";
+@fa-var-pump-soap: "\e06b";
+@fa-var-pushed: "\f3e1";
+@fa-var-puzzle-piece: "\f12e";
+@fa-var-python: "\f3e2";
+@fa-var-qq: "\f1d6";
+@fa-var-qrcode: "\f029";
+@fa-var-question: "\f128";
+@fa-var-question-circle: "\f059";
+@fa-var-quidditch: "\f458";
+@fa-var-quinscape: "\f459";
+@fa-var-quora: "\f2c4";
+@fa-var-quote-left: "\f10d";
+@fa-var-quote-right: "\f10e";
+@fa-var-quran: "\f687";
+@fa-var-r-project: "\f4f7";
+@fa-var-radiation: "\f7b9";
+@fa-var-radiation-alt: "\f7ba";
+@fa-var-rainbow: "\f75b";
+@fa-var-random: "\f074";
+@fa-var-raspberry-pi: "\f7bb";
+@fa-var-ravelry: "\f2d9";
+@fa-var-react: "\f41b";
+@fa-var-reacteurope: "\f75d";
+@fa-var-readme: "\f4d5";
+@fa-var-rebel

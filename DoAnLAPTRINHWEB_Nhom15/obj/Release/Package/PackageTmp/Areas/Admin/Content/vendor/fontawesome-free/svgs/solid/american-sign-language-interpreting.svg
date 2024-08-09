@@ -1,0 +1,36 @@
+-var-thermometer-half; }
+.@{fa-css-prefix}-thermometer-quarter:before { content: @fa-var-thermometer-quarter; }
+.@{fa-css-prefix}-thermometer-three-quarters:before { content: @fa-var-thermometer-three-quarters; }
+.@{fa-css-prefix}-think-peaks:before { content: @fa-var-think-peaks; }
+.@{fa-css-prefix}-thumbs-down:before { content: @fa-var-thumbs-down; }
+.@{fa-css-prefix}-thumbs-up:before { content: @fa-var-thumbs-up; }
+.@{fa-css-prefix}-thumbtack:before { content: @fa-var-thumbtack; }
+.@{fa-css-prefix}-ticket-alt:before { content: @fa-var-ticket-alt; }
+.@{fa-css-prefix}-tiktok:before { content: @fa-var-tiktok; }
+.@{fa-css-prefix}-times:before { content: @fa-var-times; }
+.@{fa-css-prefix}-times-circle:before { content: @fa-var-times-circle; }
+.@{fa-css-prefix}-tint:before { content: @fa-var-tint; }
+.@{fa-css-prefix}-tint-slash:before { content: @fa-var-tint-slash; }
+.@{fa-css-prefix}-tired:before { content: @fa-var-tired; }
+.@{fa-css-prefix}-toggle-off:before { content: @fa-var-toggle-off; }
+.@{fa-css-prefix}-toggle-on:before { content: @fa-var-toggle-on; }
+.@{fa-css-prefix}-toilet:before { content: @fa-var-toilet; }
+.@{fa-css-prefix}-toilet-paper:before { content: @fa-var-toilet-paper; }
+.@{fa-css-prefix}-toilet-paper-slash:before { content: @fa-var-toilet-paper-slash; }
+.@{fa-css-prefix}-toolbox:before { content: @fa-var-toolbox; }
+.@{fa-css-prefix}-tools:before { content: @fa-var-tools; }
+.@{fa-css-prefix}-tooth:before { content: @fa-var-tooth; }
+.@{fa-css-prefix}-torah:before { content: @fa-var-torah; }
+.@{fa-css-prefix}-torii-gate:before { content: @fa-var-torii-gate; }
+.@{fa-css-prefix}-tractor:before { content: @fa-var-tractor; }
+.@{fa-css-prefix}-trade-federation:before { content: @fa-var-trade-federation; }
+.@{fa-css-prefix}-trademark:before { content: @fa-var-trademark; }
+.@{fa-css-prefix}-traffic-light:before { content: @fa-var-traffic-light; }
+.@{fa-css-prefix}-trailer:before { content: @fa-var-trailer; }
+.@{fa-css-prefix}-train:before { content: @fa-var-train; }
+.@{fa-css-prefix}-tram:before { content: @fa-var-tram; }
+.@{fa-css-prefix}-transgender:before { content: @fa-var-transgender; }
+.@{fa-css-prefix}-transgender-alt:before { content: @fa-var-transgender-alt; }
+.@{fa-css-prefix}-trash:before { content: @fa-var-trash; }
+.@{fa-css-prefix}-trash-alt:before { content: @fa-var-trash-alt; }
+.@{fa-cs

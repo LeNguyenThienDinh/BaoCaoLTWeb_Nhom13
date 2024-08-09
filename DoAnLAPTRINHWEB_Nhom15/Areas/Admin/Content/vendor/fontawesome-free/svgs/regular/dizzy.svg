@@ -1,0 +1,41 @@
+css-prefix}.@{fa-css-prefix}-gittip:before { content: @fa-var-gratipay; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-sun-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-sun-o:before { content: @fa-var-sun; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-moon-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-moon-o:before { content: @fa-var-moon; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-vk {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-weibo {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-renren {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-pagelines {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-stack-exchange {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-arrow-circle-o-right {
+  font-family: 'Font Aweso

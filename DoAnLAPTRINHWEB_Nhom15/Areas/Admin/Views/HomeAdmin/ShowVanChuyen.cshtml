@@ -1,0 +1,123 @@
+﻿
+@{
+    ViewBag.Title = "ShowVanChuyen";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<VanChuyen>
+
+<style>
+    div .product {
+        display: flex;
+        text-align: center;
+    }
+
+    .form_search_product {
+        width: 15rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+        .form_search_product input {
+            border: 1px solid black;
+            width: 10rem;
+            border-radius: 5px;
+            height: 2.5rem;
+        }
+
+    .tb {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .cnsp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    center {
+        padding-top: 20px;
+    }
+
+        center p {
+            text-transform: uppercase;
+            color: blue;
+            border-bottom: 2px solid black;
+        }
+
+    .btn_TC {
+        width: 4rem;
+        text-align: center;
+        border: none;
+    }
+
+    .btn_delete {
+        background: #d01919;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_delete:hover {
+            background: red;
+        }
+
+    .btn_edit {
+        background: #1b2f9d;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_edit:hover {
+            background: blue;
+        }
+</style>
+<div>
+    <h2 style="text-align:center">THÔNG TIN BẢNG VẬN CHUYỂN</h2>
+    <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/ShowVanChuyen">RESET Vận Chuyển</a></button><br /><br />
+    <div class="product">
+        <form action="/Admin/HomeAdmin/ShowVanChuyen" method="post" class="form_search_product">
+            <center style="padding-bottom:20px;">
+                <p>Search Vận Chuyển</p>
+                <label>Mã Vận Chuyển</label><br />
+                <input type="text" name="txtMaVC" value="@ViewBag.txtMaVC" /> <br /><br />
+                <button type="submit" class="btn btn-primary">SEARCH</button>
+            </center>
+            @*<button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/FormAddNSX">Add Vận</a></button><br /><br />*@
+        </form>
+
+        <table class="table table-bordered table-responsive tb">
+            <tr>
+                <th>Mã Vận Chuyển</th>
+                <th>Mã Đơn Hàng</th>
+                <th>Ngày Vận Chuyển</th>
+                <th>Chi Phí Vận Chuyển</th>
+                <th>Tùy Chỉnh</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaVanChuyen</td>
+                    <td>@item.MaDonHang</td>
+                    <td>@item.NgayVanChuyen</td>
+                    <td>@item.ChiPhiVanChuyen</td>
+                    @*<td>
+                        <div class="TC">
+                            <a href="/Admin/HomeAdmin/DeleteNSX?MaNhaSanXuat=@item.MaNhaSanXuat"><button class="btn_TC btn_delete">Delete</button></a>
+                            <br /><br />
+                            <a class="tc" href="/Admin/HomeAdmin/FormUpdateNSX?MaNhaSanXuat=@item.MaNhaSanXuat&TenNhaSanXuat=@item.TenNhaSanXuat&SoDienThoai=@item.SoDienThoai&DiaChi=@item.DiaChi&Email=@item.Email"><button class="btn_TC btn_edit">Edit</button></a>
+                        </div>
+
+                    </td>*@
+                </tr>
+            }
+        </table>
+    </div>
+    <p style="text-align:center;color:red;text-transform:uppercase;">Tổng số Đơn Vận Chuyển: @ViewBag.TongSP</p>
+</div>
+
+
+
+

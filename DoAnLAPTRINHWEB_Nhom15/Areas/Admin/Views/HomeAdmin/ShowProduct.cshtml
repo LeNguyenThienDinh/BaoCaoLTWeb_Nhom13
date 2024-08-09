@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewBag.Title = "Show Product";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<Products>
+
+<style>
+    .img_content{
+        width:5rem;
+    }
+    div .product{
+        display:flex;
+        text-align:center;    
+    }
+    .form_search_product {
+        width: 15rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        border-radius:5px;
+    }
+        .form_search_product input {
+            border: 1px solid black;
+            width: 10rem;
+            border-radius: 5px;
+            height: 2.5rem;
+        }
+    .cnsp a{
+       text-decoration:none;
+       color:#fff;
+    }
+    .tb {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+    center{
+        padding-top:20px;
+    }
+    center p {
+        text-transform: uppercase;
+        color: blue;
+        border-bottom: 2px solid black;
+    }
+    .btn_TC{
+        width:4rem;
+        text-align:center;
+        border:none;
+    }
+    .btn_delete{
+        background:#d01919;
+        color:#fff;
+        border-radius:5px;
+    }
+    .btn_delete:hover{
+        background:red;
+    }
+    .btn_edit {
+        background: #1b2f9d;
+        color: #fff;
+        border-radius: 5px;
+    }
+        .btn_edit:hover {
+            background: blue;
+        }
+</style>
+<div>
+    <h2 style="text-align:center">THÔNG TIN BẢNG SẢN PHẨM</h2>
+    <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/ShowProduct">RESET Product</a></button><br /><br />
+    <div class="product">
+        <form action="/Admin/HomeAdmin/ShowProduct" method="post" class="form_search_product">
+            <center>
+                <p>Search Product</p>
+                <label>Tên Sản Phẩm</label><br />
+                <input type="text" name="txtTenSP" value="@ViewBag.txtTenSP" /> <br /><br />
+                <label>Giá Thấp</label><br />
+                <input type="text" name="txtLowPrice" value="@ViewBag.txtLowPrice" /><br /><br />
+                <label>Giá Cao</label><br />
+                <input type="text" name="txtHighPrice" value="@ViewBag.txtHighPrice" /> <br /><br />
+                <button type="submit" class="btn btn-primary">SEARCH</button>
+            </center>
+        </form>
+        <table class="table table-bordered table-responsive tb">
+            <tr>
+                <th>Mã Sản Phẩm</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Giá</th>
+                <th>Mô Tả</th>
+                <th>Ảnh</th>
+                <th>Mã Loại</th>
+                <th>Mã NSX</th>
+                <th width="5rem;">Sản Phẩm Tồn</th>
+                <th width="5rem;">Đã Bán</th>
+                <th>Tùy Chỉnh</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaSanPham</td>
+                    <td>@item.TenSanPham</td>
+                    <td>@item.Gia</td>
+                    <td>@item.MoTa</td>
+                    <td><img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@item.Anh" class="img_content" /></td>
+                    <td>@item.MaLoai</td>
+                    <td>@item.MaNhaSanXuat</td>
+                    <td>@item.SanPhamTon</td>
+                    <td>@item.SanPhamDaBan</td>
+                    <td>
+                        <div class="TC">
+                            <a class="tc" href="/Admin/HomeAdmin/DeleteProduct?MaSanPham=@item.MaSanPham"><button class="btn_TC btn_delete">Delete</button></a>
+                            <br /><br />
+                            <a class="tc" href="/Admin/HomeAdmin/FormUpdateProduct?MaSanPham=@item.MaSanPham&TenSanPham=@item.TenSanPham&Gia=@item.Gia&MoTa=@item.MoTa&MaLoai=@item.MaLoai&MaNhaSanXuat=@item.MaNhaSanXuat&SanPhamTon=@item.SanPhamTon"><button class="btn_TC btn_edit">Edit</button></a>
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+    <p style="text-align:center;color:red;text-transform:uppercase;">Tổng số sản phẩm: @ViewBag.TongSP</p>
+</div>
+    
+
+
+

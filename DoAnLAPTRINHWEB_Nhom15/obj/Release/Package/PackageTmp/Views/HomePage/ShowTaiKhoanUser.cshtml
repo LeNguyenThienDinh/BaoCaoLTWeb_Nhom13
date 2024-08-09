@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "ShowTaiKhoanUser";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<TaiKhoan>
+<style>
+    .main_user{
+        margin-top:3rem;
+    }
+    .form_Home {
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 0 20px;
+        background: #fff;
+        width: 80%;
+        margin: auto;
+        line-height: 3.5rem;
+    }
+        .form_Home button{
+            width:10rem;
+            margin-left:20rem;
+        }
+        .table_user {
+            margin: auto;
+            width: 80%;
+        }
+        .table_user h3 {
+            font-size: 2rem;
+            text-align: center;
+        }
+        .input_user {
+            line-height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    .input_user input{
+       padding:10px 0 10px 20px;
+       width:100%;
+       border-radius:5px;
+       border:1px solid black;
+    }
+        .input_user h4 {
+            width:30%;
+        }
+        .input_user div{          
+            width: 100%;
+        }
+</style>
+<div class="main_user">
+    <form action="/HomePage/UpdateTaiKhoan" method="post" class="form_Home">
+        @foreach (var item in Model)
+        {
+            <div class="table_user">
+                <h3>THÔNG TIN TÀI KHOẢN</h3>
+                <div class="input_user">
+                    <h4>
+                        Họ Tên
+                    </h4>
+                    <div class="ip">
+                        <input type="text" name="HoTen" value="@item.HoTen" />
+                    </div>
+                </div>
+                <div class="input_user">
+                    <h4>
+                        Email
+                    </h4>
+                    <div class="ip">
+                        <input type="email" name="Email" value="@item.Email" />
+                    </div>
+                </div>
+                <div class="input_user">
+                    <h4>
+                        Ngày Sinh
+                    </h4>
+                    <div class="ip">
+                        <input type="date" name="NgaySinh" value="@item.NgaySinh"  />
+                        
+                    </div>
+                </div>
+                <div class="input_user">
+                    <h4>
+                        Giới tính
+                    </h4>
+                    <div class="ip">
+                        <input type="text" name="GioiTinh" value="@item.GioiTinh" />
+                    </div>
+                </div>
+                <div class="input_user">
+                    <h4>
+                        Số Điện Thoại
+                    </h4>
+                    <div class="ip">
+                        <input type="text" name="SoDienThoai" value="@item.SoDienThoai" />
+                    </div>
+                </div>
+
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary btn-sm"> Cập Nhật </button>
+    </form>
+</div>
+
+
+<script>
+    var NgaySinh = NgaySinh;
+    document.querySelector("input[name='NgaySinh']").value = NgaySinh.format("dd/mm/yyyy");
+</script>
+

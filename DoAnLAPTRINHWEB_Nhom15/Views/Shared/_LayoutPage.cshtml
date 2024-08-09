@@ -1,0 +1,357 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/Content/User/css/style.css" rel="stylesheet" type="text/css"/>
+    <title>@ViewBag.Title</title>
+</head>
+
+
+<body>
+
+    <header class="header">
+        <a href="/HomePage/PageHome" class="logo">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="/HomePage/PageHome">trang chủ</a></li>
+            <li><a href="/HomePage/HomeProduct">Sản phẩm</a></li>
+            <li><a href="">giới thiệu</a></li>
+        </ul>
+        <div class="head-icon">
+            @{
+                var username = Session["User"] as string;
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+                <div class="fodel">
+                    <div class="moxuong">
+                        <button class="mo"><img src="~/Content/User/image/diachi.jpg" /></button>
+                        <div class="moxuong-content">
+                            <p>Xin Chào @username</p>
+                            <a href="/HomePage/HomeGioHang">Thông Tin Giỏ Hàng</a>
+                            <a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông Tin Đơn Hàng</a>
+                            <a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông Tin Tài Khoản</a>
+                            <a href="/HomePage/DangXuat">Đăng Xuất</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a href="/HomePage/DangNhap"><i class="fa fa-solid fa-user"></i></a>
+            }
+
+            <a href="/HomePage/HomeGioHang"><i class="fa fa-cart-shopping">@Html.Action("ViewTongSoLuong", "HomePage")</i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+
+    <div class="slideshow">
+        <div class="">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="~/Content/User/image/BIA1.jpg">
+                </div>
+                @*<div class="mySlides fade">
+                    <img src="~/Content/User/image/HinhBia.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="~/Content/User/image/HinhBia4.jpg">
+                </div>*@
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+    </div>
+    <main>
+        <section class="content">
+            <div class="border-container">
+                <p>Tải file pdf <a href="https://drive.google.com/file/d/1MB2vhH2qljDzenl3c_xOd9aJXg9CfsT4/view?usp=sharing" target="_blank" class="larger-uppercase">>>>>>>>>>>>>>>>>>>>TẠI ĐÂY<<<<<<<<<<<<<<<<<<<<<<<<</a></p>
+            </div>
+        </section>
+        <section class="content">
+            <div class="border-container">
+                <p>Tải file pdf lần 2 <a href="" target="_blank" class="larger-uppercase">>>>>>>>>>>>>>>>>>>>TẠM THỜI CHƯA CÓ FILE PDF<<<<<<<<<<<<<<<<<<<<<<<<</a></p>
+            </div>
+        </section>
+    </main>
+    <section class="about" id="about">
+        <div class="sidebar">
+            <div class="owl-stage">
+                <img src="~/Content/User/image/cay1.jpg" alt="">
+                <p>CÂY HẠNH PHÚC GỐC TO</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/cay2.jpg" alt="">
+                <p>CÂY TRÚC NHẬT VÀNG</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/cay3.jpg" alt="">
+                <p>SEN ĐÁ CÁNH BƯỚM BẠC</p>
+            </div>
+            @*<div class="owl-stage">
+                <img src="~/Content/User/image/depguoc.jpg" alt="">
+                <p>DÉP & GUỐC</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/giayluoi.jpg" alt="">
+                <p>GIÀY LƯỜI</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/giaysneaker.jpg" alt="">
+                <p>GIÀY SNEAKER</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/giaycaogot.jpg" alt="">
+                <p>GIÀY CAO GÓT</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/giaybet.jpg" alt="">
+                <p>GIÀY BỆT</p>
+            </div>
+            <div class="owl-stage">
+                <img src="~/Content/User/image/giaybupbe.jpg" alt="">
+                <p>GIÀY BÚP BÊ</p>
+            </div>*@
+        </div>
+        <div class="sale_home">
+            <div>
+                <a href="">sale sập sàn</a>
+            </div>
+            <div class="salehome">
+                <div class="flasssale">
+                    <div id="countdown" class="countdown">
+                        <div class="time">
+                            <h2 id="days">30</h2>
+                            <small>Ngày</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="hours">21</h2>
+                            <small>Giờ</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="minutes">53</h2>
+                            <small>Phút</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="seconds">50</h2>
+                            <small>Giây</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Sản phẩm nổi bật</h2>
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+        @*<div class="product-container">
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image/giaybet.jpg" alt=""></a>
+                <h3>Giày BỆT</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image/cay1.jpg" alt=""></a>
+
+                <h3>Giày Boot</h3>
+                <div class="content">
+                    <span>$20</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image/giaycaogot.jpg" alt=""></a>
+
+                <h3>Giày Cao Gót</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image/cay2.jpg" alt=""></a>
+
+                <h3>Giày Da</h3>
+                <div class="content">
+                    <span>$10</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                
+            </div>
+        </div>*@
+    </section>
+
+    <section class="docquyen">
+        <div class="docquyen-img">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </div>
+        <div class="docquyen-text">
+            <p>Độc quyền tại</p>
+            <h1>WEBCAYCANH</h1>
+            <p>Không gian của bạn, lựa chọn của bạn</p>
+            <p>Mua ngay tại Webcaycanh</p>
+            <a href="sanpham.html" class="btn">Xem ngay</a>
+
+        </div>
+
+    </section>
+    <section class="danhgia">
+        <div class="heading">
+            <h2>làm việc</h2>
+        </div>
+        <div class="danhgia-container">
+            <div class="box">
+                <img src="~/Content/User/image/giaohang.png" alt="">
+                <h2>Siêu tốc</h2>
+                <p>Giao nhanh, miễn phí</p>
+            </div>
+            <div class="box">
+                <img src="~/Content/User/image/diachi.jpg" alt="">
+                <h2>Địa chỉ</h2>
+                <p>Toàn quốc</p>
+            </div>
+            <div class="box">
+                <img src="~/Content/User/image/vi.jpg" alt="">
+                <h2>Tiết kiệm</h2>
+                <p>Hàng chất lượng, tiết tiệm tiền</p>
+            </div>
+            <div class="box">
+                <img src="~/Content/User/image/phone.webp" alt="">
+                <h2>Hotline</h2>
+                <p>+84999999</p>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/User/image/app-2store.png">
+                        <img src="~/Content/User/image/google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="~/Content/User/image/logo.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i>hello@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Content/User/scrip/script.js"></script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change ~/Content/User/image every 2 seconds
+        }
+    </script>
+    <script>
+        const days = document.getElementById('days');
+        const hours = document.getElementById('hours');
+        const minutes = document.getElementById('minutes');
+        const seconds = document.getElementById('seconds');
+
+        const currentYear = new Date().getFullYear();
+        const newYearTime = new Date(`August 30 2024 ${currentYear + 1} 00:00:00`)
+        // Update countdown time
+        function updateCountdown() {
+            const currentTime = new Date();
+            const diff = newYearTime - currentTime;
+
+            const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+            const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+            const m = Math.floor(diff / 1000 / 60) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+
+            days.innerHTML = d;
+            hours.innerHTML = h < 10 ? '0' + h : h;
+            minutes.innerHTML = m < 10 ? '0' + m : m;
+            seconds.innerHTML = s < 10 ? '0' + s : s;
+        }
+
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+
+</html>

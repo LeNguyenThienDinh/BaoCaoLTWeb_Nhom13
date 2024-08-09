@@ -1,0 +1,73 @@
+   - tee
+  styles:
+    - solid
+  unicode: f450
+  voted: false
+goodreads:
+  changes:
+    - 5.0.0
+  label: Goodreads
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3a8
+  voted: false
+goodreads-g:
+  changes:
+    - 5.0.0
+  label: Goodreads G
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3a9
+  voted: false
+google:
+  changes:
+    - '4.1'
+    - 5.0.0
+  label: Google Logo
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f1a0
+  voted: false
+google-drive:
+  changes:
+    - 5.0.0
+  label: Google Drive
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3aa
+  voted: false
+google-pay:
+  changes:
+    - 5.13.1
+    - 5.14.0
+  label: Google Pay
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: e079
+  voted: false
+google-play:
+  changes:
+    - 5.0.0
+  label: Google Play
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3ab
+  voted: false
+google-plus:
+  changes:
+    - '4.6'
+    - 5.0.0
+    - 5.13.1
+  lab

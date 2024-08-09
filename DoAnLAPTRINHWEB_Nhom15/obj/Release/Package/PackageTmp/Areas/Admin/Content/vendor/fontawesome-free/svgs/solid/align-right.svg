@@ -1,0 +1,12 @@
+
+.@{fa-css-prefix}-share-alt-square:before { content: @fa-var-share-alt-square; }
+.@{fa-css-prefix}-share-square:before { content: @fa-var-share-square; }
+.@{fa-css-prefix}-shekel-sign:before { content: @fa-var-shekel-sign; }
+.@{fa-css-prefix}-shield-alt:before { content: @fa-var-shield-alt; }
+.@{fa-css-prefix}-shield-virus:before { content: @fa-var-shield-virus; }
+.@{fa-css-prefix}-ship:before { content: @fa-var-ship; }
+.@{fa-css-prefix}-shipping-fast:before { content: @fa-var-shipping-fast; }
+.@{fa-css-prefix}-shirtsinbulk:before { content: @fa-var-shirtsinbulk; }
+.@{fa-css-prefix}-shoe-prints:before { content: @fa-var-shoe-prints; }
+.@{fa-css-prefix}-shopify:before { content: @fa-var-shopify; }
+.@{fa-css-prefix}-shopping-bag:before { 

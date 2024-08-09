@@ -1,0 +1,72 @@
+  styles:
+    - solid
+    - regular
+  unicode: f2d2
+  voted: false
+windows:
+  changes:
+    - '3.2'
+    - 5.0.0
+  label: Windows
+  search:
+    terms:
+      - microsoft
+      - operating system
+      - os
+  styles:
+    - brands
+  unicode: f17a
+  voted: false
+wine-bottle:
+  changes:
+    - 5.4.0
+  label: Wine Bottle
+  search:
+    terms:
+      - alcohol
+      - beverage
+      - cabernet
+      - drink
+      - glass
+      - grapes
+      - merlot
+      - sauvignon
+  styles:
+    - solid
+  unicode: f72f
+  voted: false
+wine-glass:
+  changes:
+    - 5.0.9
+    - 5.1.0
+    - 5.10.1
+    - 5.11.0
+    - 5.11.1
+  label: Wine Glass
+  search:
+    terms:
+      - alcohol
+      - beverage
+      - cabernet
+      - drink
+      - grapes
+      - merlot
+      - sauvignon
+  styles:
+    - solid
+  unicode: f4e3
+  voted: false
+wine-glass-alt:
+  changes:
+    - 5.1.0
+    - 5.10.1
+    - 5.11.0
+    - 5.11.1
+  label: Alternate Wine Glas
+  search:
+    terms:
+      - alcohol
+      - beverage
+      - cabernet
+      - drink
+      - gra

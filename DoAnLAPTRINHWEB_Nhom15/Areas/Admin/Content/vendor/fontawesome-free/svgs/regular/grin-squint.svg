@@ -1,0 +1,73 @@
+ - kebab
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - ul
+  styles:
+    - solid
+  unicode: f142
+  voted: false
+ello:
+  changes:
+    - 5.2.0
+  label: Ello
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5f1
+  voted: true
+ember:
+  changes:
+    - 5.0.0
+    - 5.0.3
+  label: Ember
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f423
+  voted: false
+empire:
+  changes:
+    - '4.1'
+    - 5.0.0
+  label: Galactic Empire
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f1d1
+  voted: false
+envelope:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+  label: Envelope
+  search:
+    terms:
+      - e-mail
+      - email
+      - letter
+      - mail
+      - message
+      - notification
+      - support
+  styles:
+    - solid
+    - regular
+  unicode: f0e0
+  voted: false
+envelope-open:
+  changes:
+    - '4.7'
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+  label: Envel

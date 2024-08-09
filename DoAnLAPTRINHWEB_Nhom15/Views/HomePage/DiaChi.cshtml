@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "DiaChi";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<DiaChi>
+<style>
+    .main_user {
+        margin-top: 3rem;
+    }
+
+    .form_Home {
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 0 20px;
+        background: #fff;
+        width: 80%;
+        margin: auto;
+        line-height: 3.5rem;
+    }
+
+        .form_Home button {
+            width: 10rem;
+            margin-left: 20rem;
+        }
+
+    .table_user {
+        margin: auto;
+        width: 80%;
+    }
+
+        .table_user h3 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+    .input_user {
+        line-height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        .input_user input {
+            padding: 10px 0 10px 20px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .input_user h4 {
+            width: 45%;
+        }
+
+        .input_user div {
+            width: 100%;
+        }
+</style>
+
+<div class="main_user">
+    <form action="/HomePage/DiaChi" method="post" class="form_Home">
+
+        <div class="table_user">
+            <h3>THÊM THÔNG TIN ĐỊA CHỈ</h3>
+            <div class="input_user">
+                <h4>
+                   Địa Chỉ 1
+                </h4>
+                <div class="ip">
+                    <input type="text" name="ChiTietDiaChi" value="@ViewBag.DiaChi"/>
+                </div>
+            </div>
+            <div class="input_user">
+                <h4>
+                    Địa Chỉ 2
+                </h4>
+                <div class="ip">
+                    <input type="text" name="ChiTietDiaChi2" value="@ViewBag.DiaChi2"/>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm"> Thêm Địa Chỉ </button>
+
+    </form>
+</div>
+
+

@@ -1,0 +1,72 @@
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.6.1
+  label: Exclamation Triangle
+  search:
+    terms:
+      - alert
+      - danger
+      - error
+      - important
+      - notice
+      - notification
+      - notify
+      - problem
+      - warning
+  styles:
+    - solid
+  unicode: f071
+  voted: false
+expand:
+  changes:
+    - 5.0.0
+  label: Expand
+  search:
+    terms:
+      - bigger
+      - enlarge
+      - fullscreen
+      - resize
+  styles:
+    - solid
+  unicode: f065
+  voted: false
+expand-alt:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.12.0
+  label: Alternate Expand
+  search:
+    terms:
+      - arrows
+      - bigger
+      - enlarge
+      - fullscreen
+      - resize
+  styles:
+    - solid
+  unicode: f424
+  voted: false
+expand-arrows-alt:
+  changes:
+    - 5.0.0
+    - 5.8.0
+  label: Alternate Expand Arrows
+  search:
+    terms:
+      - bigger
+      - enlarge
+      - fullscreen
+      - move
+      - resize
+  styles:
+    - solid
+  unicode: f31e
+  voted: false
+expeditedssl:
+  changes:
+    - '4.4'
+    - 5.0.0
+  label: Exped

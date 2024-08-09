@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "UpdateMatKhau";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<TaiKhoan>
+<style>
+    .main_user {
+        margin-top: 3rem;
+    }
+
+    .form_Home {
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 0 20px;
+        background: #fff;
+        width: 80%;
+        margin: auto;
+        line-height: 3.5rem;
+    }
+
+        .form_Home button {
+            width: 10rem;
+            margin-left: 20rem;
+        }
+
+    .table_user {
+        margin: auto;
+        width: 80%;
+    }
+
+        .table_user h3 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+    .input_user {
+        line-height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        .input_user input {
+            padding: 10px 0 10px 20px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        .input_user h4 {
+            width: 45%;
+        }
+
+        .input_user div {
+            width: 100%;
+        }
+</style>
+
+<div class="main_user">
+    <form action="/HomePage/UpdateMatKhau" method="post" class="form_Home">
+
+        <div class="table_user">
+            <h3>THÔNG TIN TÀI KHOẢN</h3>
+            <div class="input_user">
+                <h4>
+                    Mật Khẩu Cũ
+                </h4>
+                <div class="ip">
+                    <input type="text" name="MatKhauCu" />
+                </div>
+            </div>
+            <div class="input_user">
+                <h4>
+                    Mật Khẩu Mới
+                </h4>
+                <div class="ip">
+                    <input type="text" name="MatKhau" />
+                </div>
+            </div>
+            <div class="input_user">
+                <h4>
+                   Xác Nhận Mật Khẩu
+                </h4>
+                <div class="ip">
+                    <input type="text" name="ReMatKhauMoi" />
+
+                </div>
+            </div>
+
+        </div>
+            <button type="submit" class="btn btn-primary btn-sm"> Cập Nhật </button>
+        
+        </form>
+</div>
+

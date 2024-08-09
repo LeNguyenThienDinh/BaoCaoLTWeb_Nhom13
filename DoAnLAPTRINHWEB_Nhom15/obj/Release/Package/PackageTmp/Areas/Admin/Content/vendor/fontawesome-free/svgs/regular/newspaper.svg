@@ -1,0 +1,86 @@
+  search:
+    terms:
+      - bark
+      - fall
+      - flora
+      - forest
+      - nature
+      - plant
+      - seasonal
+  styles:
+    - solid
+  unicode: f1bb
+  voted: false
+trello:
+  changes:
+    - '3.2'
+    - 5.0.0
+    - 5.6.0
+  label: Trello
+  search:
+    terms:
+      - atlassian
+  styles:
+    - brands
+  unicode: f181
+  voted: false
+tripadvisor:
+  changes:
+    - '4.4'
+    - 5.0.0
+    - 5.13.1
+    - 5.14.0
+  label: TripAdvisor
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f262
+  voted: false
+trophy:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.11.0
+  label: trophy
+  search:
+    terms:
+      - achievement
+      - award
+      - cup
+      - game
+      - winner
+  styles:
+    - solid
+  unicode: f091
+  voted: false
+truck:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.0.7
+  label: truck
+  search:
+    terms:
+      - cargo
+      - delivery
+      - shipping
+      - vehicle
+  styles:
+    - solid
+  unicode: f0d1
+  voted: false
+truck-loading:
+  changes:
+    - 5.0.9
+  label: Truck Loading
+  search:
+    terms:
+      - box
+      - cargo
+      - delivery
+      - inventory
+      - moving
+      - rental
+      - vehicle
+  

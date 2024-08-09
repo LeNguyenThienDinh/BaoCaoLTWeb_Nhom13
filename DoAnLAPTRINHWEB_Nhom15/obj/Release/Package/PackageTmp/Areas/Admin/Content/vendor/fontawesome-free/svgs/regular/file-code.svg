@@ -1,0 +1,36 @@
+; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-id-card-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-id-card-o:before { content: @fa-var-id-card; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-drivers-license-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-drivers-license-o:before { content: @fa-var-id-card; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-quora {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-free-code-camp {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-telegram {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-thermometer-4:before { content: @fa-var-thermometer-full; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-thermometer:before { content: @fa-var-thermometer-full; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-thermometer-3:before { content: @fa-var-thermometer-three-quarters; }
+
+.@{

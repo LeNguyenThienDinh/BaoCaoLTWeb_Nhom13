@@ -1,0 +1,306 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/User/css/style.css">
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/HomePage/PageHome" class="logo">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="/HomePage/PageHome">trang chủ</a></li>
+            <li><a href="/HomePage/HomeProduct">Sản phẩm</a></li>
+            <li><a href="">giới thiệu</a></li>
+        </ul>
+        <div class="head-icon">
+            @{
+                var username = Session["User"] as string;
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+                <div class="fodel">
+                    <div class="moxuong">
+                        <button class="mo"><img src="~/Content/User/image/diachi.jpg" /></button>
+                        <div class="moxuong-content">
+                            <p>Xin Chào @username</p>
+                            <a href="/HomePage/HomeGioHang">Thông Tin Giỏ Hàng</a>
+                            <a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông Tin Đơn Hàng</a>
+                            <a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông Tin Tài Khoản</a>
+                            <a href="/HomePage/DangXuat">Đăng Xuất</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a href="/HomePage/DangNhap"><i class="fa fa-solid fa-user"></i></a>
+            }
+
+            <a href="/HomePage/HomeGioHang"><i class="fa fa-cart-shopping">@Html.Action("ViewTongSoLuong", "HomePage")</i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+    <div class="thansp">
+    </div>
+    <div class="container">
+        <div class="heading" style="float: left">
+            <h2>sản phẩm đã chọn</h2>
+        </div>
+    </div>
+    <div class="small-container cart-page">
+          @RenderBody()
+        @*<table>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Giá tiền</th>
+                <th>thao tác</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <div class="checksp">
+                            <input type="checkbox">
+                        </div>
+                        <img src="~/Content/User/image//binxit.png">
+                        <div>
+                            <p>Bình Xịt Kem Tươi</p>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$27,71</td>
+                <td><a href=""><i class="fa-solid fa-trash-can"></i> </a> </td>
+            </tr>
+
+        </table>*@
+        @*<div class="button-giohang">
+            <a href="/HomePage/HomeProduct"><button class="button1"> &#8592; tiếp tục xem sản phẩm</button></a>
+            <a href="/HomePage/HomeGioHang"><button class="button2">cập nhật giỏ hàng</button></a>
+        </div>*@
+        <!--<div class="httt">
+            <h2>Thanh toán</h2>
+            <div class="tabs">
+                <button class="tablinks active" data-electronic="allproducts">Hóa đơn thanh toán</button>
+                <button class="tablinks" data-electronic="Microcontrollers">
+                    xác nhận thông tin <span>người dùng</span>
+                </button>
+                <button class="tablinks" data-electronic="module">hình thức thanh toán</button>
+            </div>-->
+
+            <!-- Tab content -->
+            <!--<div class="contentt">
+                <div id="allproducts" class="tabcontent active">
+                    <div class="thanhtoan">
+                        <div class="thanhtoan-tieude">
+                            <p>sản phẩm</p>
+                            <p>giá tiền</p>
+                        </div>
+                        <div class="spthanhtoan">
+                            <div class="spthanhtoan-text">
+                                <p>Coffee Spec’ Phin <span>x 1</span> </p>
+                            </div>
+                            <div class="spthanhtoan-tien">
+                                <p>$25</p>
+                            </div>
+                        </div>
+                        <div class="tienthanhtoan spthanhtoan">
+                            <h4>Chi phí vận chuyển</h4>
+                            <p>$0</p>
+                        </div>
+                        <div class="phieugiangia spthanhtoan">
+                            <h4>Voucher</h4>
+                            <a href="#">Chọn Voucher</a>
+                        </div>
+                        <div class="tongtien-sp thanhtoan-tieude spthanhtoan">
+                            <h4>Tổng thanh toán</h4>
+                            <p>$53,71</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Microcontrollers" class="tabcontent">
+                    <div class="dangky">
+                        <div class="thongtin">
+                            <input type="text" placeholder="Họ và tên">
+                        </div>
+                        <div class="thongtin">
+                            <input type="text" placeholder="Địa chỉ giao hàng">
+                        </div>
+                        <div class="thongtin">
+                            <input type="text" placeholder="Số điện thoại">
+                        </div>
+                        <div class="luuthongtin">
+                            <input type="checkbox">Lưu thông tin người dùng
+                        </div>
+                    </div>
+                </div>
+
+                <div id="module" class="tabcontent">
+                    <div class="vidientu">
+                        <div class="vidientu-img">
+                            <input type="radio" name="thanhtoan" id="vi">
+                            <div>
+                                <img src="~/Content/User/image//momo.png" alt="">
+                                <img src="~/Content/User/image//zalopay.png" alt="">
+                                <img src="~/Content/User/image//vnpay.png" alt="">
+                            </div>
+                            <p>Ví điện tử</p>
+                        </div>
+                        <div class="vidientu-img">
+                            <input type="radio" id="the" name="thanhtoan">
+                            <div>
+                                <i class="fa fa-money-check-dollar"></i>
+                            </div>
+                            <p>thẻ nội địa / thẻ ghi nợ / thẻ atm</p>
+                        </div>
+                        <div class="vidientu-img">
+                            <input type="radio" id="tructiep" name="thanhtoan">
+                            <div>
+                                <i class="fa fa-money-bill"></i>
+                            </div>
+                            <p>thanh toán khi nhận hàng</p>
+                        </div>
+                        <div class="vidientu-button">
+                            <a href="#"><button>Thanh toán ngay</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Sản phẩm tương tự</h2>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image//giaybet.jpg" alt=""></a>
+                <h3>Giày BỆT</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image//giaybet.jpg" alt=""></a>
+                <h3>Giày BỆT</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image//giaybet.jpg" alt=""></a>
+                <h3>Giày BỆT</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="~/Content/User/image//giaybet.jpg" alt=""></a>
+                <h3>Giày BỆT</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                    <a href="chitiet.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/User/image//app-2store.png">
+                        <img src="~/Content/User/image//google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="~/Content/User/image//LogoVascara.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i>hello@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.querySelectorAll(".tablinks");
+        var tabContent = document.querySelectorAll(".tabcontent");
+
+        tabLinks.forEach(function (el) {
+            el.addEventListener("click", openTabs);
+        });
+
+
+        function openTabs(el) {
+            var btn = el.currentTarget; // lắng nghe sự kiện và hiển thị các element
+            var electronic = btn.dataset.electronic; // lấy giá trị trong data-electronic
+
+            tabContent.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            tabLinks.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            document.querySelector("#" + electronic).classList.add("active");
+
+            btn.classList.add("active");
+        }
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Content/User/scrip/script.js"></script>
+</body>
+
+</html>

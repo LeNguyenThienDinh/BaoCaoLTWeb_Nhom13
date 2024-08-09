@@ -1,0 +1,68 @@
+brands
+  unicode: f41e
+  voted: false
+satellite:
+  changes:
+    - 5.6.0
+    - 5.10.1
+    - 5.12.0
+  label: Satellite
+  search:
+    terms:
+      - communications
+      - hardware
+      - orbit
+      - space
+  styles:
+    - solid
+  unicode: f7bf
+  voted: true
+satellite-dish:
+  changes:
+    - 5.6.0
+    - 5.12.0
+  label: Satellite Dish
+  search:
+    terms:
+      - SETI
+      - communications
+      - hardware
+      - receiver
+      - saucer
+      - signal
+      - space
+  styles:
+    - solid
+  unicode: f7c0
+  voted: true
+save:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.10.2
+  label: Save
+  search:
+    terms:
+      - disk
+      - download
+      - floppy
+      - floppy-o
+  styles:
+    - solid
+    - regular
+  unicode: f0c7
+  voted: false
+schlix:
+  changes:
+    - 5.0.0
+  label: SCHLIX
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3ea
+  voted: false
+school:
+  changes:
+    - 5.0.13
+ 

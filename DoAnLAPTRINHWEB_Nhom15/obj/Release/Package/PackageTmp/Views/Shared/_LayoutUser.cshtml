@@ -1,0 +1,237 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/User/css/style.css">
+    <title>@ViewBag.Title</title>
+    <style>
+
+        :root {
+            --pink-color: #f2726a;
+        }
+
+
+        .img_user .card_img {
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 4px solid var(--pink-color);
+        }
+
+        .img_user img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .img_user h2 {
+            color: #fff;
+            margin-top: 30px;
+            color: black;
+        }
+
+        .main_user {
+            display: flex;
+            margin: auto;
+        }
+
+            .main_user .left {
+                width: 20%;
+            }
+
+            .main_user .right {
+                width: 80%;
+            }
+
+        .profile {
+            padding-top: 2rem;
+            margin-top: 3rem;
+            height: 100vh;
+            background: var(--pink-color);
+            margin-right: 10px;
+            padding-left: 20px;
+        }
+
+            .profile ul {
+                line-height: 3rem;
+            }
+
+                .profile ul a {
+                    color: black;
+                    font-size: 1.2rem;
+                }
+
+                    .profile ul a:hover {
+                        border-bottom: 1px solid black;
+                        font-weight: 600;
+                    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="/HomePage/PageHome" class="logo">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="/HomePage/PageHome">trang chủ</a></li>
+            <li><a href="/HomePage/HomeProduct">Sản phẩm</a></li>
+            <li><a href="">giới thiệu</a></li>
+        </ul>
+        <div class="head-icon">
+            @{
+                var username = Session["User"] as string;
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+                <div class="fodel">
+                    <div class="moxuong">
+                        <button class="mo"><img src="~/Content/User/image/diachi.jpg" /></button>
+                        <div class="moxuong-content">
+                            <p>Xin Chào @username</p>
+                            <a href="/HomePage/HomeGioHang">Thông Tin Giỏ Hàng</a>
+                            <a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông Tin Đơn Hàng</a>
+                            <a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông Tin Tài Khoản</a>
+                            <a href="/HomePage/DangXuat">Đăng Xuất</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a href="/HomePage/DangNhap"><i class="fa fa-solid fa-user"></i></a>
+            }
+
+            <a href="/HomePage/HomeGioHang"><i class="fa fa-cart-shopping">@Html.Action("ViewTongSoLuong", "HomePage")</i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+    <div class="thansp">
+    </div>
+    <div class="container">
+        <div class="heading" style="float: left">
+            <h2>Tài khoản khách hàng</h2>
+        </div>
+    </div>
+    <section class="product-small main_user" id="product-small">
+
+        <div class="left">
+            <div class="profile">
+                <div class="img_user">
+
+                    <div class="card_img">
+                        <img src="picture.jpeg" alt="">
+                    </div>
+                    <a href="">Đổi ảnh đại diện</a>
+                    
+                        <h2>@username</h2>
+
+                </div>
+                <ul>
+                    <li><a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông tin cá nhân</a></li>
+                    <li><a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông tin đơn hàng</a></li>
+                    <li><a href="/HomePage/DiaChi">Thêm địa chỉ</a></li>
+                    <li><a href="/HomePage/UpdateMatKhau?TenDN=@username">Đổi mật khẩu</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+
+
+    </section>
+    @*<div class="small-container cart-page main_user">
+
+        </div>*@
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/User/image//app-2store.png">
+                        <img src="~/Content/User/image//google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="~/Content/User/image//LogoVascara.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i>hello@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.querySelectorAll(".tablinks");
+        var tabContent = document.querySelectorAll(".tabcontent");
+
+        tabLinks.forEach(function (el) {
+            el.addEventListener("click", openTabs);
+        });
+
+
+        function openTabs(el) {
+            var btn = el.currentTarget; // lắng nghe sự kiện và hiển thị các element
+            var electronic = btn.dataset.electronic; // lấy giá trị trong data-electronic
+
+            tabContent.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            tabLinks.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            document.querySelector("#" + electronic).classList.add("active");
+
+            btn.classList.add("active");
+        }
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Content/User/scrip/script.js"></script>
+</body>
+</html>

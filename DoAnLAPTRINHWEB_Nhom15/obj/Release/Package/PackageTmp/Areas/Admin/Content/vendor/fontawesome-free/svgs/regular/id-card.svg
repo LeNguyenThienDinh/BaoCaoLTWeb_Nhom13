@@ -1,0 +1,67 @@
+ search:
+    terms: []
+  styles:
+    - brands
+  unicode: f26a
+  voted: false
+optin-monster:
+  changes:
+    - '4.4'
+    - 5.0.0
+    - 5.7.0
+  label: Optin Monster
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f23c
+  voted: false
+orcid:
+  changes:
+    - 5.11.0
+  label: ORCID
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f8d2
+osi:
+  changes:
+    - 5.0.0
+    - 5.8.0
+  label: Open Source Initiative
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f41a
+  voted: false
+otter:
+  changes:
+    - 5.4.0
+  label: Otter
+  search:
+    terms:
+      - animal
+      - badger
+      - fauna
+      - fur
+      - mammal
+      - marten
+  styles:
+    - solid
+  unicode: f700
+  voted: false
+outdent:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.9.0
+  label: Outdent
+  search:
+    terms:
+      - align
+      - justify
+      - paragraph
+      - tab
+  style

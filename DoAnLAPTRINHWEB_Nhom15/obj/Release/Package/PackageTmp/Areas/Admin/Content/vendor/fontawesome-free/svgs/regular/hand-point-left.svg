@@ -1,0 +1,96 @@
+
+    - solid
+  unicode: e061
+  voted: false
+head-side-cough-slash:
+  changes:
+    - 5.13.0
+    - 5.14.0
+  label: Head Side-cough-slash
+  search:
+    terms:
+      - cough
+      - covid-19
+      - germs
+      - lungs
+      - respiratory
+      - sick
+  styles:
+    - solid
+  unicode: e062
+  voted: false
+head-side-mask:
+  changes:
+    - 5.13.0
+    - 5.14.0
+  label: Head Side Mask
+  search:
+    terms:
+      - breath
+      - covid-19
+      - filter
+      - respirator
+      - virus
+  styles:
+    - solid
+  unicode: e063
+  voted: false
+head-side-virus:
+  changes:
+    - 5.13.0
+    - 5.14.0
+  label: Head Side Virus
+  search:
+    terms:
+      - cold
+      - covid-19
+      - flu
+      - sick
+  styles:
+    - solid
+  unicode: e064
+  voted: false
+heading:
+  changes:
+    - '4.1'
+    - 5.0.0
+    - 5.9.0
+    - 5.10.1
+    - 5.10.2
+  label: heading
+  search:
+    terms:
+      - format
+      - header
+      - text
+      - title
+  styles:
+    - solid
+  unicode: f1dc
+  voted: false
+headphones:
+  changes:
+    - '1'
+    - 5.0.0
+  label: headphones
+  search:
+    terms:
+      - audio
+      - listen
+      - music
+      - sound
+      - speaker
+  styles:
+    - solid
+  unicode: f025
+  voted: false
+headphones-alt:
+  changes:
+    - 5.1.0
+  label: Alternate Headphones
+  search:
+    terms:
+      - audio
+      - listen
+      - music
+    

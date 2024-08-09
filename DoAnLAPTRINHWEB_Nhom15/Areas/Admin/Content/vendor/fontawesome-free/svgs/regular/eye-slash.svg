@@ -1,0 +1,44 @@
+ands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-forumbee {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-leanpub {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-sellsy {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-shirtsinbulk {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-simplybuilt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-skyatlas {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-diamond {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-diamond:before { content: @fa-var-gem; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-intersex:before { content: @fa-var-transgender; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-facebook-official {
+  font-family: 'Font Awesome 5 Br

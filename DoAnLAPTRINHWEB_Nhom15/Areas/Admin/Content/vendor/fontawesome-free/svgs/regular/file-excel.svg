@@ -1,0 +1,61 @@
+500px:
+  changes:
+    - '4.4'
+    - 5.0.0
+  label: 500px
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f26e
+  voted: false
+accessible-icon:
+  changes:
+    - 5.0.0
+  label: Accessible Icon
+  search:
+    terms:
+      - accessibility
+      - handicap
+      - person
+      - wheelchair
+      - wheelchair-alt
+  styles:
+    - brands
+  unicode: f368
+  voted: false
+accusoft:
+  changes:
+    - 5.0.0
+  label: Accusoft
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f369
+  voted: false
+acquisitions-incorporated:
+  changes:
+    - 5.4.0
+    - 5.8.0
+  label: Acquisitions Incorporated
+  search:
+    terms:
+      - Dungeons & Dragons
+      - d&d
+      - dnd
+      - fantasy
+      - game
+      - gaming
+      - tabletop
+  styles:
+    - brands
+  unicode: f6af
+  voted: false
+ad:
+  changes:
+    - 5.3.0
+    - 5.10.2
+  label: Ad
+  search:
+    te

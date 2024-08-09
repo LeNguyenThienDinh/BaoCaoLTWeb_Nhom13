@@ -1,0 +1,87 @@
+chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - more
+      - note
+      - notification
+      - reply
+      - sms
+      - speech
+      - texting
+  styles:
+    - solid
+    - regular
+  unicode: f4ad
+  voted: false
+comment-medical:
+  changes:
+    - 5.7.0
+  label: Alternate Medical Chat
+  search:
+    terms:
+      - advice
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - diagnose
+      - feedback
+      - message
+      - note
+      - notification
+      - prescription
+      - sms
+      - speech
+      - texting
+  styles:
+    - solid
+  unicode: f7f5
+  voted: false
+comment-slash:
+  changes:
+    - 5.0.9
+  label: Comment Slash
+  search:
+    terms:
+      - bubble
+      - cancel
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - mute
+      - note
+      - notification
+      - quiet
+      - sms
+      - speech
+      - texting
+  styles:
+    - solid
+  unicode: f4b3
+  voted: false
+comments:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.0.9
+  label: comments
+  search:
+    terms:
+      - bubble
+      - chat
+      - commenting
+      - conversation
+      - feedback
+      - message
+      - note
+      - notification
+      - sms
+      - speech
+      - texting
+  styles:
+    - solid
+    -

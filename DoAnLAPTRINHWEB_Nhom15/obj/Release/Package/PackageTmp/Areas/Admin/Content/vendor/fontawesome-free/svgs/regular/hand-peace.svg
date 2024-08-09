@@ -1,0 +1,95 @@
+tyles:
+    - brands
+  unicode: f3af
+  voted: false
+hackerrank:
+  changes:
+    - 5.2.0
+    - 5.8.0
+  label: Hackerrank
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f5f7
+  voted: true
+hamburger:
+  changes:
+    - 5.7.0
+  label: Hamburger
+  search:
+    terms:
+      - bacon
+      - beef
+      - burger
+      - burger king
+      - cheeseburger
+      - fast food
+      - grill
+      - ground beef
+      - mcdonalds
+      - sandwich
+  styles:
+    - solid
+  unicode: f805
+  voted: false
+hammer:
+  changes:
+    - 5.4.0
+  label: Hammer
+  search:
+    terms:
+      - admin
+      - fix
+      - repair
+      - settings
+      - tool
+  styles:
+    - solid
+  unicode: f6e3
+  voted: true
+hamsa:
+  changes:
+    - 5.3.0
+  label: Hamsa
+  search:
+    terms:
+      - amulet
+      - christianity
+      - islam
+      - jewish
+      - judaism
+      - muslim
+      - protection
+  styles:
+    - solid
+  unicode: f665
+  voted: false
+hand-holding:
+  changes:
+    - 5.0.9
+  label: Hand Holding
+  search:
+    terms:
+      - carry
+      - lift
+  styles:
+    - solid
+  unicode: f4bd
+  voted: false
+hand-holding-heart:
+  changes:
+    - 5.0.9
+  label: Hand Holding Heart
+  search:
+    terms:
+      - carry
+      - charity
+      - gift
+      - lift
+      - package
+  styles:
+    - solid
+  unicode: f4be
+  voted: false
+hand-h

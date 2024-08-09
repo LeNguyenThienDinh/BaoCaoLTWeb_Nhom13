@@ -1,0 +1,14 @@
+a-css-prefix}-grin-tears:before { content: @fa-var-grin-tears; }
+.@{fa-css-prefix}-grin-tongue:before { content: @fa-var-grin-tongue; }
+.@{fa-css-prefix}-grin-tongue-squint:before { content: @fa-var-grin-tongue-squint; }
+.@{fa-css-prefix}-grin-tongue-wink:before { content: @fa-var-grin-tongue-wink; }
+.@{fa-css-prefix}-grin-wink:before { content: @fa-var-grin-wink; }
+.@{fa-css-prefix}-grip-horizontal:before { content: @fa-var-grip-horizontal; }
+.@{fa-css-prefix}-grip-lines:before { content: @fa-var-grip-lines; }
+.@{fa-css-prefix}-grip-lines-vertical:before { content: @fa-var-grip-lines-vertical; }
+.@{fa-css-prefix}-grip-vertical:before { content: @fa-var-grip-vertical; }
+.@{fa-css-prefix}-gripfire:before { content: @fa-var-gripfire; }
+.@{fa-css-prefix}-grunt:before { content: @fa-var-grunt; }
+.@{fa-css-prefix}-guilded:before { content: @fa-var-guilded; }
+.@{fa-css-prefix}-guitar:before { content: @fa-var-guitar; }
+.@{fa-css-prefix}-gulp:before { c

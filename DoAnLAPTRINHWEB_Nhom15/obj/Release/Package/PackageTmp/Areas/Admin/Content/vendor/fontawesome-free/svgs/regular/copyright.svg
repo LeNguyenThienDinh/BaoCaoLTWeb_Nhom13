@@ -1,0 +1,34 @@
+ode-branch; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-chain-broken:before { content: @fa-var-unlink; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-shield:before { content: @fa-var-shield-alt; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-calendar-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-calendar-o:before { content: @fa-var-calendar; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-maxcdn {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-html5 {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-css3 {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-ticket:before { content: @fa-var-ticket-alt; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-minus-square-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-minus-square-o:before { content: @fa-var

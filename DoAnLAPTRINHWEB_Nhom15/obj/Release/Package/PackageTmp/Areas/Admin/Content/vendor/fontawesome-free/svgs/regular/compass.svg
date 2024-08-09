@@ -1,0 +1,25 @@
+refix}.@{fa-css-prefix}-feed:before { content: @fa-var-rss; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-hdd-o {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-hdd-o:before { content: @fa-var-hdd; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-hand-o-right {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-hand-o-right:before { content: @fa-var-hand-point-right; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-hand-o-left {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.@{fa-css-prefix}-hand-o-left:before { content: @fa-var-hand-point-left; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-hand-o-up {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+.@{fa-css-prefix}.

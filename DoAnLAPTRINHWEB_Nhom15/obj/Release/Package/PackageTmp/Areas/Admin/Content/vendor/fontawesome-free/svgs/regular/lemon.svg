@@ -1,0 +1,85 @@
+  - sign-in
+      - signin
+      - signup
+  styles:
+    - solid
+  unicode: f2f6
+  voted: false
+sign-language:
+  changes:
+    - '4.6'
+    - 5.0.0
+    - 5.10.2
+  label: Sign Language
+  search:
+    terms:
+      - Translate
+      - asl
+      - deaf
+      - hands
+  styles:
+    - solid
+  unicode: f2a7
+  voted: false
+sign-out-alt:
+  changes:
+    - 5.0.0
+  label: Alternate Sign Out
+  search:
+    terms:
+      - arrow
+      - exit
+      - leave
+      - log out
+      - logout
+      - sign-out
+  styles:
+    - solid
+  unicode: f2f5
+  voted: false
+signal:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.3.0
+    - 5.10.1
+  label: signal
+  search:
+    terms:
+      - bars
+      - graph
+      - online
+      - reception
+      - status
+  styles:
+    - solid
+  unicode: f012
+  voted: false
+signature:
+  changes:
+    - 5.1.0
+    - 5.6.0
+  label: Signature
+  search:
+    terms:
+      - John Hancock
+      - cursive
+      - name
+      - writing
+  styles:
+    - solid
+  unicode: f5b7
+  voted: true
+sim-card:
+  changes:
+    - 5.6.0
+    - 5.8.2
+    - 5.10.2
+  label: SIM Card
+  search:
+    terms:
+      - hard drive
+      - hardware
+      - portable
+      - storage
+   

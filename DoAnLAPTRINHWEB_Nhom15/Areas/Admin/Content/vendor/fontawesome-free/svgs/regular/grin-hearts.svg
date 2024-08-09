@@ -1,0 +1,70 @@
+  - 5.0.0
+    - 5.0.3
+  label: Discourse
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f393
+  voted: false
+disease:
+  changes:
+    - 5.7.0
+  label: Disease
+  search:
+    terms:
+      - bacteria
+      - cancer
+      - covid-19
+      - illness
+      - infection
+      - sickness
+      - virus
+  styles:
+    - solid
+  unicode: f7fa
+  voted: false
+divide:
+  changes:
+    - 5.0.13
+  label: Divide
+  search:
+    terms:
+      - arithmetic
+      - calculus
+      - division
+      - math
+  styles:
+    - solid
+  unicode: f529
+  voted: false
+dizzy:
+  changes:
+    - 5.1.0
+    - 5.11.0
+    - 5.11.1
+  label: Dizzy Face
+  search:
+    terms:
+      - dazed
+      - dead
+      - disapprove
+      - emoticon
+      - face
+  styles:
+    - solid
+    - regular
+  unicode: f567
+  voted: false
+dna:
+  changes:
+    - 5.0.7
+    - 5.0.10
+  label: DNA
+  search:
+    terms:
+      - double helix
+      - genetic
+      - helix
+      - molecule
+      - protein

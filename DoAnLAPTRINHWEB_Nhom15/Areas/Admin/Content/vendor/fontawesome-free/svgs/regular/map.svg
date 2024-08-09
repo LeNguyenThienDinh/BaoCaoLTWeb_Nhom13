@@ -1,0 +1,54 @@
+ false
+star-half-alt:
+  changes:
+    - 5.1.0
+    - 5.11.0
+    - 5.11.1
+  label: Alternate Star Half
+  search:
+    terms:
+      - achievement
+      - award
+      - rating
+      - score
+      - star-half-empty
+      - star-half-full
+  styles:
+    - solid
+  unicode: f5c0
+  voted: true
+star-of-david:
+  changes:
+    - 5.3.0
+    - 5.11.0
+    - 5.11.1
+  label: Star of David
+  search:
+    terms:
+      - jewish
+      - judaism
+      - religion
+  styles:
+    - solid
+  unicode: f69a
+  voted: false
+star-of-life:
+  changes:
+    - 5.2.0
+  label: Star of Life
+  search:
+    terms:
+      - doctor
+      - emt
+      - first aid
+      - health
+      - medical
+  styles:
+    - solid
+  unicode: f621
+  voted: false
+staylinked:
+  changes:
+    - 5.0.0
+  label: StayLinked
+  s

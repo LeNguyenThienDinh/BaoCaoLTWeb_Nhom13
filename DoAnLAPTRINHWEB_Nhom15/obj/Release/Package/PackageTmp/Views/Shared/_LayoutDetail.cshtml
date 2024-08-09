@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/User/css/style.css">
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/HomePage/PageHome" class="logo">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="/HomePage/PageHome">trang chủ</a></li>
+            <li><a href="/HomePage/HomeProduct">Sản phẩm</a></li>
+            <li><a href="">giới thiệu</a></li>
+        </ul>
+        <div class="head-icon">
+            @{
+                var username = Session["User"] as string;
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+                <div class="fodel">
+                    <div class="moxuong">
+                        <button class="mo"><img src="~/Content/User/image/diachi.jpg" /></button>
+                        <div class="moxuong-content">
+                            <p>Xin Chào @username</p>
+                            <a href="/HomePage/HomeGioHang">Thông Tin Giỏ Hàng</a>
+                            <a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông Tin Đơn Hàng</a>
+                            <a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông Tin Tài Khoản</a>
+                            <a href="/HomePage/DangXuat">Đăng Xuất</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a href="/HomePage/DangNhap"><i class="fa fa-solid fa-user"></i></a>
+            }
+
+            <a href="/HomePage/HomeGioHang"><i class="fa fa-cart-shopping">@Html.Action("ViewTongSoLuong", "HomePage")</i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+    <div class="thansp1">
+        <h2>chi tiết sản phẩm</h2>
+    </div>
+    @RenderBody()
+    @*<section class="single-product">
+        <div class="row">
+            <div class="col-2">
+                <div>
+
+                </div>
+                <img src="~/Content/User/image//giaybet.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="~/Content/User/image//giaybet.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/Content/User/image//cay1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/Content/User/image//giaybupbe.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="~/Content/User/image//giaybupbe.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home/ COFFEE</p>
+                <h1>Coffee ARABICA</h1>
+                <h4>$5,12</h4>
+                <div class="size-card">
+                    <h3>Size:</h3>
+                    <span class="span">37</span>
+                    <span class="span">38</span>
+                    <span class="span">39</span>
+                    <span class="span">40</span>
+                    <span class="span">41</span>
+                </div>
+                <div class="art-s">
+                    <h3>Số lượng:</h3>
+                    <input type="number" min="1" value="1">
+                </div>
+                <div class="art">
+                    <div class="art-button">
+                        <a href="#" class="btn">Thêm vào <i class="fa fa-cart-arrow-down"></i> </a>
+                    </div>
+                    <div class="art-button">
+                        <a href="giohang.html" class="btn">Mua ngay <i class="fa fa-credit-card"></i></a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3>Thông tin <i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>
+                        <i class="fa fa-indent"></i> Với hương trái cây tự nhiên, hương hoa, vị mật ong, thể chất cân
+                        bằng và hậu vị ngọt
+                    </p>
+                    <p>
+                        <i class="fa fa-indent"></i> Mùi hương thoang thoảng, thanh tao. Khi pha, nước cafe sẽ có màu nâu
+                        nhạt và hơi nghiêng về hổ phách.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="single-product">
+        <div class="mota">
+            <div class="mota-header">
+                <div class="mota-header-text">mô tả chi tiết sản phẩm</div>
+            </div>
+            <div class="mota-content">
+                <p>
+                    Cái tên Arabica có nguồn gốc xa xôi từ bán đảo Arabica Peninsula tại Ả Rập. Cây cà phê Arabica được
+                    trồng đầu tiên bởi những người Ả Rập từ thế kỷ 14. Tuy vậy, đến thế kỷ thứ 17 – thế kỷ 18, giống cà
+                    phê này đã được phổ biến nhiều nơi. Cho đến nay, Arabica chiếm đến 70% sản lượng cafe trên toàn thế
+                    giới.
+                </p>
+
+                <img src="~/Content/User/image//mota.jpg" alt="">
+                <p>
+                    Arabica sinh trưởng tốt tại độ cao 900 – 2000m so với mực nước biển, lượng mưa 1,500-2,500mm/năm,
+                    nhiệt độ thích hợp từ 15- 25 độ C. Arabica có tán cây nhỏ, lá có hình dạng oval và màu xanh đậm, quả
+                    cà phê có hình bầu dục. Khi trưởng thành, cây có thể đạt độ cao từ 2,5m – 4,5m. Thậm chí, có nhiều
+                    cây mọc trong điều kiện hoang dã có thể đạt tới chiều cao 10m.
+                </p>
+                <img src="~/Content/User/image//mota1.jpeg" alt="">
+                <hr>
+
+                <p> PowGCoffee – 456 Tân Sơn Nhì, Phường Tân Sơn Nhì, Quận Tân Phú, TP.HCM.</p>
+                <p>Hotline: 03.95.93.1992 – 0971.93.1992</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="single-product">
+        <div class="mota">
+            <div class="mota-header">
+                <div class="mota-header-text">ĐÁNH GIÁ SẢN PHẨM</div>
+            </div>
+            <div class="mota-view">
+                <div class="mota-view-star">
+                    <div class="mota-view-star-wrapper">
+                        <span class="mota-view-so">4.9</span>
+                        <span>trên 5</span>
+                        <div class="mota_rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="mota-view__filters">
+                        <div class="mota-view__filter mota-view__filter--active mota-view__filter--all">
+                            <p>tất cả</p>
+                        </div>
+                        <div class="mota-view__filter"><p>5 Sao (1,1k)</p> </div>
+                        <div class="mota-view__filter"><p>4 Sao (31)</p> </div>
+                        <div class="mota-view__filter"><p>3 Sao (11)</p> </div>
+                        <div class="mota-view__filter"><p>2 Sao (4)</p> </div>
+                        <div class="mota-view__filter mota-view__filter--with-comment">
+                            <p>
+                                Có Bình
+                                luận (425)
+                            </p>
+                        </div>
+                        <div class="mota-view__filter mota-view__filter--with-photo">
+                            <p>
+                                Có hình ảnh
+                                / video (381)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mota__list">
+                <div class="mota-comment-list">
+                    <div class="mota-product-rating">
+                        <div class="chia">
+                            <div class="mota_avatar">
+                                <img src="~/Content/User/image//rev1.jpg">
+                            </div>
+                            <div class="cmt-cmt">
+                                <h3>Ti Nau</h3>
+                                <div>
+                                    <div class="mota_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="mota_time">2023-04-02 12:28 | Phân loại hàng: Nhỏ</div>
+                                <div class="mota_time">Chất lượng sản phẩm: <span class="mota_dg">Tốt</span></div>
+                                <div class="mota_time"> Đúng với mô tả: <span class="mota_dg">Đúng</span></div>
+                                <div class="cmt">Sản phẩm chất lượng, giao hành nhanh.</div>
+                                <div>
+                                    <img class="cmt-img" src="~/Content/User/image//p1.png" alt="">
+                                    <img class="cmt-img" src="~/Content/User/image//p2.png" alt="">
+                                    <img class="cmt-img" src="~/Content/User/image//binxit.png" alt="">
+                                    <img class="cmt-img" src="~/Content/User/image//p4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mota-product-rating">
+                        <div class="chia">
+                            <div class="mota_avatar">
+                                <img src="~/Content/User/image//rev2.jpg">
+                            </div>
+                            <div class="cmt-cmt">
+                                <h3>cminh0929</h3>
+                                <div>
+                                    <div class="mota_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="mota_time">2022-07-25 18:36 | Phân loại hàng: Lớn</div>
+                                <div class="cmt">Thật tuyệt vời, tôi đã thưởng thức được lọa coffee ngon nhất trên thế giới</div>
+                                <img class="cmt-img" src="~/Content/User/image//binhlac.png" alt="">
+                                <img class="cmt-img" src="~/Content/User/image//maypha.png" alt="">
+                                <img class="cmt-img" src="~/Content/User/image//p5.png" alt="">
+                                <img class="cmt-img" src="~/Content/User/image//p2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#62;</span>
+        </div>
+    </section>*@
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/User/image//app-2store.png">
+                        <img src="~/Content/User/image//google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="~/Content/User/image//LogoVascara.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i>hello@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Content/User/scrip/script.js"></script>
+    <script>
+        var ProductImg = document.getElementById('ProductImg');
+        var Smallimg = document.getElementsByClassName('small-img');
+
+        Smallimg[0].onclick = function () {
+            ProductImg.src = Smallimg[0].src;
+        }
+        Smallimg[1].onclick = function () {
+            ProductImg.src = Smallimg[1].src;
+        }
+        Smallimg[2].onclick = function () {
+            ProductImg.src = Smallimg[2].src;
+        }
+        Smallimg[3].onclick = function () {
+            ProductImg.src = Smallimg[3].src;
+        }
+
+    </script>
+</body>
+
+</html>

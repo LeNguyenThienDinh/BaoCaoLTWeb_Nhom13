@@ -1,0 +1,36 @@
+ight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-pied-piper-alt {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-drupal {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-joomla {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-spoon:before { content: @fa-var-utensil-spoon; }
+
+.@{fa-css-prefix}.@{fa-css-prefix}-behance {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-behance-square {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{fa-css-prefix}-steam {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+.@{fa-css-prefix}.@{f

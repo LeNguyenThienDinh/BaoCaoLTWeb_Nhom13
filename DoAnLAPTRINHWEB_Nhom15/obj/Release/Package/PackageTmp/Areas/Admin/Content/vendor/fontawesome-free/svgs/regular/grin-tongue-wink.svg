@@ -1,0 +1,95 @@
+k
+  styles:
+    - solid
+  unicode: f577
+  voted: true
+fire:
+  changes:
+    - '1'
+    - 5.0.0
+    - 5.6.0
+    - 5.6.3
+    - 5.10.1
+  label: fire
+  search:
+    terms:
+      - burn
+      - caliente
+      - flame
+      - heat
+      - hot
+      - popular
+  styles:
+    - solid
+  unicode: f06d
+  voted: false
+fire-alt:
+  changes:
+    - 5.6.3
+  label: Alternate Fire
+  search:
+    terms:
+      - burn
+      - caliente
+      - flame
+      - heat
+      - hot
+      - popular
+  styles:
+    - solid
+  unicode: f7e4
+fire-extinguisher:
+  changes:
+    - '3.1'
+    - 5.0.0
+  label: fire-extinguisher
+  search:
+    terms:
+      - burn
+      - caliente
+      - fire fighter
+      - flame
+      - heat
+      - hot
+      - rescue
+  styles:
+    - solid
+  unicode: f134
+  voted: false
+firefox:
+  changes:
+    - '4.4'
+    - 5.0.0
+    - 5.0.1
+    - 5.12.0
+  label: Firefox
+  search:
+    terms:
+      - browser
+  styles:
+    - brands
+  unicode: f269
+  voted: false
+firefox-browser:
+  changes:
+    - 5.12.0
+    - 5.14.0
+  label: Firefox Browser
+  search:
+    terms:
+      - browser
+  styles:
+    - brands
+  unicode: e007
+  voted: false
+first-aid:
+  changes:
+    - 5.0.7
+  label: First Aid
+  search:
+    terms:
+      - emergency
+      - emt
+      - health
+      - medical
+      - re

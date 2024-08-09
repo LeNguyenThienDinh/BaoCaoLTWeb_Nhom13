@@ -1,0 +1,11 @@
+
+.@{fa-css-prefix}-place-of-worship:before { content: @fa-var-place-of-worship; }
+.@{fa-css-prefix}-plane:before { content: @fa-var-plane; }
+.@{fa-css-prefix}-plane-arrival:before { content: @fa-var-plane-arrival; }
+.@{fa-css-prefix}-plane-departure:before { content: @fa-var-plane-departure; }
+.@{fa-css-prefix}-plane-slash:before { content: @fa-var-plane-slash; }
+.@{fa-css-prefix}-play:before { content: @fa-var-play; }
+.@{fa-css-prefix}-play-circle:before { content: @fa-var-play-circle; }
+.@{fa-css-prefix}-playstation:before { content: @fa-var-playstation; }
+.@{fa-css-prefix}-plug:before { content: @fa-var-plug; }
+.@{fa-css-

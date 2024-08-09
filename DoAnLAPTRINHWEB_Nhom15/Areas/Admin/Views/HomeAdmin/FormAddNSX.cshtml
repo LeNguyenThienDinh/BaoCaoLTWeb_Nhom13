@@ -1,0 +1,85 @@
+﻿@model DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models.NSX
+
+@{
+    ViewBag.Title = "FormAddNSX";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .add_product_main {
+        margin-left: 3rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        padding: 30px;
+    }
+
+        .add_product_main h2 {
+            border-bottom: 2px solid black;
+        }
+
+        .add_product_main a:hover {
+            color: red;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+    .add_product {
+        display: flex;
+        text-align: center;
+    }
+
+        .add_product div {
+            padding: 0 20px;
+        }
+
+        .add_product input {
+            width: 30rem;
+        }
+
+    .btn_add {
+        margin-left: 32rem;
+    }
+</style>
+
+<div class="add_product_main">
+    <h2 style="text-align:center">THÊM NHÀ SẢN XUẤT MỚI</h2>
+    <form action="/Admin/HomeAdmin/FormAddNSX" method="post">
+        <div class="add_product">
+            <div>
+                <div>
+                    <label>Mã NSX</label>
+                    <input type="text" name="MaNhaSanXuat" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.MaNhaSanXuat, "", new { @class = "text-danger" }) <br /> <br />
+                </div>
+                <div>
+                    <label>Tên NSX</label>
+                    <input type="text" name="TenNhaSanXuat" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.TenNhaSanXuat, "", new { @class = "text-danger" })<br /><br />
+                </div>
+                <div>
+                    <label>Số Điện Thoại</label>
+                    <input type="text" name="SoDienThoai" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.SoDienThoai, "", new { @class = "text-danger" })<br /><br />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Địa Chỉ</label>
+                    <input type="text" name="DiaChi" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })<br /><br />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="Email" class="form-control" />
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })<br /><br />
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn_add">Thêm mới</button>
+    </form>
+    <h5><a href="/Admin/HomeAdmin/ShowNSX">Trở lại trang NSX</a></h5>
+</div>
+
+
+
+
+

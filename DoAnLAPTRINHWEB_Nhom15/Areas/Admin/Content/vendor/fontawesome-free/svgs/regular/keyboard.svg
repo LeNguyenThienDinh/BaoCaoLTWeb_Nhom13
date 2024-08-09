@@ -1,0 +1,133 @@
+cope:
+  changes:
+    - 5.0.0
+  label: Periscope
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3da
+  voted: false
+person-booth:
+  changes:
+    - 5.5.0
+  label: Person Entering Booth
+  search:
+    terms:
+      - changing
+      - changing room
+      - election
+      - human
+      - person
+      - vote
+      - voting
+  styles:
+    - solid
+  unicode: f756
+  voted: false
+phabricator:
+  changes:
+    - 5.0.0
+  label: Phabricator
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3db
+  voted: false
+phoenix-framework:
+  changes:
+    - 5.0.0
+    - 5.0.3
+  label: Phoenix Framework
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f3dc
+  voted: false
+phoenix-squadron:
+  changes:
+    - 5.0.12
+    - 5.8.0
+  label: Phoenix Squadron
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f511
+  voted: false
+phone:
+  changes:
+    - '2'
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+  label: Phone
+  search:
+    terms:
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f095
+  voted: false
+phone-alt:
+  changes:
+    - 5.9.0
+    - 5.10.1
+    - 5.10.2
+  label: Alternate Phone
+  search:
+    terms:
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f879
+  voted: false
+phone-slash:
+  changes:
+    - 5.0.0
+    - 5.0.9
+  label: Phone Slash
+  search:
+    terms:
+      - call
+      - cancel
+      - earphone
+      - mute
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f3dd
+  voted: false
+phone-square:
+  changes:
+    - '2'
+    - 5.0.0
+  label: Phone Square
+  search:
+    terms:
+      - call
+      - earphone
+      - number
+      - support
+      - telephone
+      - voice
+  styles:
+    - solid
+  unicode: f098
+  voted: false
+phone-square-

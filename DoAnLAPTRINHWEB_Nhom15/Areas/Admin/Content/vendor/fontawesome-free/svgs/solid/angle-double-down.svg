@@ -1,0 +1,11 @@
+ content: @fa-var-vihara; }
+.@{fa-css-prefix}-vimeo:before { content: @fa-var-vimeo; }
+.@{fa-css-prefix}-vimeo-square:before { content: @fa-var-vimeo-square; }
+.@{fa-css-prefix}-vimeo-v:before { content: @fa-var-vimeo-v; }
+.@{fa-css-prefix}-vine:before { content: @fa-var-vine; }
+.@{fa-css-prefix}-virus:before { content: @fa-var-virus; }
+.@{fa-css-prefix}-virus-slash:before { content: @fa-var-virus-slash; }
+.@{fa-css-prefix}-viruses:before { content: @fa-var-viruses; }
+.@{fa-css-prefix}-vk:before { content: @fa-var-vk; }
+.@{fa-css-prefix}-vnv:before { content: @fa-var-vnv; }
+.@{fa-css-prefix}-voicemail:before { content: @fa-var

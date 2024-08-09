@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewBag.Title = "ShowNSX";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<NSX>
+
+<style>
+    div .product {
+        display: flex;
+        text-align: center;
+    }
+
+    .form_search_product {
+        width: 15rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+        .form_search_product input {
+            border: 1px solid black;
+            width: 10rem;
+            border-radius: 5px;
+            height: 2.5rem;
+        }
+
+    .tb {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .cnsp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .tb .td_C{
+        width:20rem;
+    }
+    center {
+        padding-top: 20px;
+    }
+
+        center p {
+            text-transform: uppercase;
+            color: blue;
+            border-bottom: 2px solid black;
+        }
+    .btn_TC {
+        width: 4rem;
+        text-align: center;
+        border: none;
+    }
+    .btn_TC a{
+        color:#fff;
+        text-decoration:none;
+    }
+    .btn_delete {
+        background: #d01919;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_delete:hover {
+            background: red;
+        }
+
+    .btn_edit {
+        background: #1b2f9d;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_edit:hover {
+            background: blue;
+        }
+</style>
+<div>
+    <h2 style="text-align:center">THÔNG TIN BẢNG NHÀ SẢN XUẤT</h2>
+    <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/ShowNSX">RESET NSX</a></button><br /><br />
+    <div class="product">
+        <form action="/Admin/HomeAdmin/ShowNSX" method="post" class="form_search_product">
+            <center  style="padding-bottom:20px;">
+                <p>Search NSX</p>
+                <label>Mã NSX</label><br />
+                <input type="text" name="mnsx" value="@ViewBag.txtma" /> <br /><br />
+                <button type="submit" class="btn btn-primary" >SEARCH</button>
+            </center>
+            <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/FormAddNSX">Add NSX</a></button><br /><br />
+        </form>
+        
+        <table class="table table-bordered table-responsive tb">
+            <tr>
+                <th>Mã NSX</th>
+                <th>Tên NSX</th>
+                <th>Số Điện Thoại</th>
+                <th>Địa Chỉ</th>
+                <th>Email</th>
+                <th>Tùy Chỉnh</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaNhaSanXuat</td>
+                    <td>@item.TenNhaSanXuat</td>
+                    <td>@item.SoDienThoai</td>
+                    <td class="td_C">@item.DiaChi</td>
+                    <td>@item.Email</td>
+                    <td>
+                        <div class="TC">
+                            <button class="btn_TC btn_delete"><a href="/Admin/HomeAdmin/DeleteNSX?txtMaNSX=@item.MaNhaSanXuat">Delete</a></button>    
+                            <button class="btn_TC btn_edit"><a class="tc" href="/Admin/HomeAdmin/FormUpdateNSX?MaNhaSanXuat=@item.MaNhaSanXuat&TenNhaSanXuat=@item.TenNhaSanXuat&SoDienThoai=@item.SoDienThoai&DiaChi=@item.DiaChi&Email=@item.Email">Edit</a></button>
+                            
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <p style="text-align:center;color:red;text-transform:uppercase;">Tổng số Nnhà Sản Xuất: @ViewBag.TongSP</p>
+</div>
+
+

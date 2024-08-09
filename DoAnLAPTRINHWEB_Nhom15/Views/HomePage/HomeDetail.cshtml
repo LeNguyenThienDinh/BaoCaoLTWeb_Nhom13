@@ -1,0 +1,214 @@
+﻿
+@{
+    ViewBag.Title = "HomeDetail";
+    Layout = "~/Views/Shared/_LayoutDetail.cshtml";
+}
+
+@model DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models.ProductDetail
+
+<style>
+    .table_ChiTiet{
+        padding:3rem 0;
+    }
+    .ChiTietSP {
+        line-height:3rem;
+        width: 100%;
+        border-collapse: collapse;
+        font-size:1.2rem;
+    }
+    .ChiTietSP, th, td {
+        border: 1px solid #ff529c;
+        
+    }
+    .ChiTietSP td {
+        text-align: center;
+        width: 50%;
+    }
+    .ChiTietSP th {
+        text-align: center;
+       
+    }
+    .height{
+        padding-top:3rem;
+    }
+    .height h1{
+        font-size:4rem;
+        line-height:5rem;
+    }
+</style>
+ 
+<section class="single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@Model.Anh1" width="100%" id="ProductImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product23/@Model.Anh2" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@Model.Anh1" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product23/@Model.Anh3" width="100%" class="small-img">
+                </div>
+
+                <div class="small-img-col">
+                    <img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@Model.Anh1" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2 height">
+            <h1 c>@Model.TenSanPham</h1>
+            <h4 class="height">@Model.Gia VNĐ</h4>
+            @if (ViewBag.MaLoai != "0")
+            {
+                <div class="size-card height">
+                    <h3>Size:</h3>
+                    <span class="span">37</span>
+                    <span class="span">38</span>
+                    <span class="span">39</span>
+                    <span class="span">40</span>
+                    <span class="span">41</span>
+                </div>
+            }
+            <div class="art-s height">
+                <h3>Số lượng:</h3>
+                <input type="number" min="1" value="1">
+            </div>
+            <div class="art">
+                <div class="art-button">
+                    <a href="/HomePage/AddGioHang?MaSP=@Model.MaSanPham" class="btn">Thêm vào <i class="fa fa-cart-arrow-down"></i> </a>
+                </div>
+                <div class="art-button">
+                    <a href="/HomePage/HoneGioHang" class="btn">Mua ngay <i class="fa fa-credit-card"></i></a>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+<section class="single-product">
+    <div class="table_ChiTiet">
+        <table class="ChiTietSP">
+            <tr>
+                <th colspan="2">Thông tin chi tiết</th>
+            </tr>
+            <tr>
+                <td>Thương hiệu</td>
+                <td>@Model.ThuongHieu</td>
+            </tr>
+            <tr>
+                <td> Mã sản phẩm</td>
+                <td>@Model.MaSanPham</td>
+            </tr>
+            <tr>
+                <td> Một số mô tả</td>
+                <td>@Model.MoTa1,@Model.MoTa2,@Model.MoTa3,@Model.MoTa4 </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section class="single-product">
+    <div class="mota">
+        <div class="mota-header">
+            <div class="mota-header-text">ĐÁNH GIÁ SẢN PHẨM</div>
+        </div>
+        <div class="mota-view">
+            <div class="mota-view-star">
+                <div class="mota-view-star-wrapper">
+                    <span class="mota-view-so">4.9</span>
+                    <span>trên 5</span>
+                    <div class="mota_rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="mota-view__filters">
+                    <div class="mota-view__filter mota-view__filter--active mota-view__filter--all">
+                        <p>tất cả</p>
+                    </div>
+                    <div class="mota-view__filter"><p>5 Sao (1,1k)</p> </div>
+                    <div class="mota-view__filter"><p>4 Sao (31)</p> </div>
+                    <div class="mota-view__filter"><p>3 Sao (11)</p> </div>
+                    <div class="mota-view__filter"><p>2 Sao (4)</p> </div>
+                    <div class="mota-view__filter mota-view__filter--with-comment">
+                        <p>
+                            Có Bình
+                            luận (425)
+                        </p>
+                    </div>
+                    <div class="mota-view__filter mota-view__filter--with-photo">
+                        <p>
+                            Có hình ảnh
+                            / video (381)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mota__list">
+            <div class="mota-comment-list">
+                <div class="mota-product-rating">
+                    <div class="chia">
+                        <div class="mota_avatar">
+                            <img src="~/Content/User/image//rev1.jpg">
+                        </div>
+                        <div class="cmt-cmt">
+                            <h3>Ti Nau</h3>
+                            <div>
+                                <div class="mota_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="mota_time">2023-04-02 12:28 | Phân loại hàng: Nhỏ</div>
+                            <div class="mota_time">Chất lượng sản phẩm: <span class="mota_dg">Tốt</span></div>
+                            <div class="mota_time"> Đúng với mô tả: <span class="mota_dg">Đúng</span></div>
+                            <div class="cmt">Sản phẩm chất lượng, giao hành nhanh.</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mota-product-rating">
+                    <div class="chia">
+                        <div class="mota_avatar">
+                            <img src="~/Content/User/image//rev2.jpg">
+                        </div>
+                        <div class="cmt-cmt">
+                            <h3>cminh0929</h3>
+                            <div>
+                                <div class="mota_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="mota_time">2022-07-25 18:36 | Phân loại hàng: Lớn</div>
+                            <div class="cmt">Thật tuyệt vời</div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-btn" style="padding:1rem 0;">
+        <span>&#60;</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#62;</span>
+    </div>
+</section>

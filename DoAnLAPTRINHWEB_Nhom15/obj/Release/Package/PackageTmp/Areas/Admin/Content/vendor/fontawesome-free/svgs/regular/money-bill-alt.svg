@@ -1,0 +1,59 @@
+ f2c7
+  voted: false
+thermometer-half:
+  changes:
+    - '4.7'
+    - 5.0.0
+  label: Thermometer 1/2 Full
+  search:
+    terms:
+      - mercury
+      - status
+      - temperature
+  styles:
+    - solid
+  unicode: f2c9
+  voted: false
+thermometer-quarter:
+  changes:
+    - '4.7'
+    - 5.0.0
+  label: Thermometer 1/4 Full
+  search:
+    terms:
+      - mercury
+      - status
+      - temperature
+  styles:
+    - solid
+  unicode: f2ca
+  voted: false
+thermometer-three-quarters:
+  changes:
+    - '4.7'
+    - 5.0.0
+  label: Thermometer 3/4 Full
+  search:
+    terms:
+      - mercury
+      - status
+      - temperature
+  styles:
+    - solid
+  unicode: f2c8
+  voted: false
+think-peaks:
+  changes:
+    - 5.4.2
+    - 5.8.0
+  label: Think Peaks
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f731
+  voted: false
+thumbs-down:
+  changes:
+    - '3.2'
+    

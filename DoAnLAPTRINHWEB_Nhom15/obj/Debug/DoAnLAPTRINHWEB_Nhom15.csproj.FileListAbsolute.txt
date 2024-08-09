@@ -1,0 +1,253 @@
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\thulan2\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15 (1)\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\DoAn_Nhom15\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+C:\Dữ liệu học tập\LT_WEB\DoAn_Nhom15new\DoAn_Nhom15\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\Download\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.AssemblyReference.cache
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+F:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\Microsoft.Web.Infrastructure.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CoreCompileInputs.cache
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csproj.CopyComplete
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+G:\Solution\Solution\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+D:\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+E:\hufi\ltweb\DoAnLAPTRINHWEB_Nhom15_modi\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll.config
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\DoAnLAPTRINHWEB_Nhom15.pdb
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Deployment.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Webpages.Razor.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Helpers.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\DoAnLAPTRINHWEB_Nhom15\DoAnLAPTRINHWEB_Nhom15\obj\Debug\DoAnLAPTRINHWEB_Nhom15.pdb

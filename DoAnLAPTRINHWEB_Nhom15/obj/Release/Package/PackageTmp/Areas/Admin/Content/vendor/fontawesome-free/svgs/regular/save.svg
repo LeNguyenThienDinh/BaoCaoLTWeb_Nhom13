@@ -1,0 +1,42 @@
+accusoft:
+  icons:
+    - accusoft
+  label: Accusoft
+  url: 'https://www.accusoft.com'
+administrator-technology:
+  icons:
+    - stream
+  label: Administrator Technology
+  url: 'https://administrator.de'
+adversal:
+  icons:
+    - adversal
+  label: Adversal
+  url: 'https://www.adversal.com'
+affiliatetheme:
+  icons:
+    - affiliatetheme
+  label: affiliatetheme
+  url: 'https://affiliatetheme.io/en'
+algolia:
+  icons:
+    - algolia
+  label: Algolia
+  url: 'http://www.algolia.com'
+amazon-web-services:
+  icons:
+    - aws
+  label: Amazon Web Services
+  url: 'https://aws.amazon.com'
+amilia:
+  icons:
+    - amilia
+  label: Amilia
+  url: 'http://www.amilia.com'
+angry-creative:
+  icons:
+    - angrycreative
+  label: Angry Creative
+  url: 'https://angrycreative.se'
+app-signal:
+  icons:

@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "ShowTaiKhoan";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<TaiKhoan>
+<style>
+    .img_content {
+        width: 5rem;
+    }
+
+    div .product {
+        display: flex;
+        text-align: center;
+    }
+
+    .form_search_product {
+        width: 15rem;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+        .form_search_product input {
+            border: 1px solid black;
+            width: 10rem;
+            border-radius: 5px;
+            height: 2.5rem;
+        }
+
+    .cnsp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .tb {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    center {
+        padding-top: 20px;
+    }
+
+        center p {
+            text-transform: uppercase;
+            color: blue;
+            border-bottom: 2px solid black;
+        }
+
+    .btn_TC {
+        width: 4rem;
+        text-align: center;
+        border: none;
+    }
+
+    .btn_delete {
+        background: #d01919;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_delete:hover {
+            background: red;
+        }
+
+    .btn_edit {
+        background: #1b2f9d;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+        .btn_edit:hover {
+            background: blue;
+        }
+</style>
+
+<div>
+    <h2 style="text-align:center">THÔNG TIN TÀI KHOẢN</h2>
+    <button class="btn btn-primary cnsp"><a href="/Admin/HomeAdmin/ShowProduct">RESET TÀI KHOẢN</a></button><br /><br />
+    <div class="product">
+        <table class="table table-bordered table-responsive tb">
+            <tr>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Ảnh</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Tên đăng nhập</th>
+                <th width="5rem;">Mật khẩu</th>
+                <th>Tùy Chỉnh</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    
+                    <td>@item.HoTen</td>
+                    <td>@item.Email</td>
+                    <td>@item.SoDienThoai</td>
+                    <td><img src="~/Areas/Admin/Content/img/IMG_Product/IMG_Product1/@item.AnhBiaUser" class="img_content" /></td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.NgaySinh</td>
+                    <td>@item.TenDN</td>
+                    <td>@item.MatKhau</td>
+                    <td>
+                        <div class="TC">
+                            <a class="tc" href="/Admin/HomeAdmin/DeleteTaiKhoan?TenDN=@item.TenDN"><button class="btn_TC btn_delete">Delete</button></a>
+                            <br /><br />
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+    <p style="text-align:center;color:red;text-transform:uppercase;">Tổng số tài khoản: @ViewBag.TongTK</p>
+</div>

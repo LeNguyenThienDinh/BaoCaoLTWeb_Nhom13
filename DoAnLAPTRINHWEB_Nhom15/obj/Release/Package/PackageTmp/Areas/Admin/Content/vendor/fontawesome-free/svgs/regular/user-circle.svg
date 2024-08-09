@@ -1,0 +1,13 @@
+ content: @fa-var-file-invoice-dollar; }
+.@{fa-css-prefix}-file-medical:before { content: @fa-var-file-medical; }
+.@{fa-css-prefix}-file-medical-alt:before { content: @fa-var-file-medical-alt; }
+.@{fa-css-prefix}-file-pdf:before { content: @fa-var-file-pdf; }
+.@{fa-css-prefix}-file-powerpoint:before { content: @fa-var-file-powerpoint; }
+.@{fa-css-prefix}-file-prescription:before { content: @fa-var-file-prescription; }
+.@{fa-css-prefix}-file-signature:before { content: @fa-var-file-signature; }
+.@{fa-css-prefix}-file-upload:before { content: @fa-var-file-upload; }
+.@{fa-css-prefix}-file-video:before { content: @fa-var-file-video; }
+.@{fa-css-prefix}-file-word:before { content: @fa-var-file-word; }
+.@{fa-css-prefix}-fill:before { content: @fa-var-fill; }
+.@{fa-css-prefix}-fill-drip:before { content: @fa-var-fill-drip; }
+.@{fa-css-prefi

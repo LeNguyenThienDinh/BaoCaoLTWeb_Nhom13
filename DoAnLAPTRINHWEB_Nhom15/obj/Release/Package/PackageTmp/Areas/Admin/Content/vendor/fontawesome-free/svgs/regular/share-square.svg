@@ -1,0 +1,72 @@
+ttps://www.guilded.gg'
+harvard-medical-school:
+  icons:
+    - allergies
+    - ambulance
+    - band-aid
+    - briefcase-medical
+    - burn
+    - capsules
+    - diagnoses
+    - dna
+    - file-medical
+    - file-medical-alt
+    - first-aid
+    - heart
+    - heartbeat
+    - hospital
+    - hospital-alt
+    - hospital-symbol
+    - id-card-alt
+    - notes-medical
+    - pills
+    - plus
+    - prescription-bottle
+    - prescription-bottle-alt
+    - procedures
+    - smoking
+    - stethoscope
+    - syringe
+    - tablets
+    - thermometer
+    - user-md
+    - vial
+    - vials
+    - weight
+    - x-ray
+  label: Harvard Medical School
+  url: 'https://hms.harvard.edu'
+hips:
+  icons:
+    - hips
+  label: Hips
+  url: 'https://hips.com'
+hire-a-helper:
+  icons:
+    - archive
+    - box-open
+    - couch
+    - dolly
+    - people-carry
+    - route
+    - sign
+    - suitcase
+    - tape
+    - truck-loading
+    - truck-moving
+    - wine-glass
+  label: HireAHelper
+  url: 'https://www.hireahelper.com'
+hive:
+  icons:
+    - hive
+  label: Hive Blockchain Network
+  url: 'https://hive.io'
+hornbill:
+  icons:
+    - hornbill
+  label: Hornbill
+  url: 'https://www.hornbill.com'
+hotjar:
+  icons:
+    - hot

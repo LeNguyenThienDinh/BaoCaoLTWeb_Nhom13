@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+@using DoAnLAPTRINHWEB_Nhom15.Areas.Admin.Models;
+@model List<LoaiSanPham>
+<div class="menu">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/HomePage/ProductByType?txtType=@item.MaLoai">@item.TenLoai</a></li>
+        }
+
+        @*<li><a href="">túi xách</a></li>
+        <li><a href="">ví bóp</a></li>
+        <li><a href="">phụ kiện</a></li>*@
+    </ul>
+</div>

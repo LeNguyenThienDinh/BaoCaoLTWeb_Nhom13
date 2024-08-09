@@ -1,0 +1,338 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+@using DoAnLAPTRINHWEB_Nhom15.Models 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/User/css/style.css">
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/HomePage/PageHome" class="logo">
+            <img src="~/Content/User/image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="/HomePage/PageHome">trang chủ</a></li>
+            <li><a href="/HomePage/HomeProduct">Sản phẩm</a></li>
+            <li><a href="">giới thiệu</a></li>
+        </ul>
+        <div class="head-icon">
+            @{
+                var username = Session["User"] as string;
+            }
+
+            @if (!string.IsNullOrEmpty(username))
+            {
+                <div class="fodel">
+                    <div class="moxuong">
+                        <button class="mo"><img src="~/Content/User/image/diachi.jpg" /></button>
+                        <div class="moxuong-content">
+                            <p>Xin Chào @username</p>
+                            <a href="/HomePage/HomeGioHang">Thông Tin Giỏ Hàng</a>
+                            <a href="/HomePage/ShowDonHangByTenDN?TenDN=@username">Thông Tin Đơn Hàng</a>
+                            <a href="/HomePage/ShowTaiKhoanUser?TenDN=@username">Thông Tin Tài Khoản</a>
+                            <a href="/HomePage/DangXuat">Đăng Xuất</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a href="/HomePage/DangNhap"><i class="fa fa-solid fa-user"></i></a>
+            }
+
+            <a href="/HomePage/HomeGioHang"><i class="fa fa-cart-shopping">@Html.Action("ViewTongSoLuong", "HomePage")</i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+    <div class="thansp">
+        <div class="heading" style="float: left">
+            <h2><span style="color: #76727291;">trang chủ ></span> tất cả sản phẩm</h2>
+        </div>
+        <div class="search-sp">
+            <form action="/HomePage/ProductBySelected?txtPrice=" method="post" id="myForm">
+                <select name="" id="mySelect" onchange="getValue() ">
+                    @if (ViewBag.selected != null)
+                    {
+                        <option value="">@ViewBag.selected</option>
+                    }
+                    <option value="Default">Mặc định</option>
+                    <option value="Popular">Phổ biến</option>
+                    <option value="ByTheMost">Mua nhiều nhất</option>
+                    <option value="ASC">Theo giá: Thấp đến cao</option>
+                    <option value="DESC">Theo giá: Cao đến thấp</option>
+                </select>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        function getValue() {
+            var selectedValue = document.getElementById("mySelect").value;
+            document.getElementById("myForm").action = document.getElementById("myForm").action + selectedValue;
+            document.getElementById("myForm").submit();
+        }
+    </script>
+    <section class="product-small" id="product-small">
+        <i class="fa fa-bars" id="menu-sp"></i>
+        <div class="search_tt">
+            <div id="search-bar">
+                <form id="search_form" method="post" action="/HomePage/HomeProduct">
+                    <input type="text" placeholder="Tìm kiếm..." required="" name="txtTenSP" value="@ViewBag.txtTenSP">
+                    <button><a href=""><i class="fa fa-search"></i></a></button>
+                </form>
+            </div>
+            <h1>Danh mục sản phẩm</h1>
+            <div class="menu">
+                <ul>
+                    <li><a href="/HomePage/ProductByType?txtType=LSP1">Cây cảnh phong thủy</a></li>
+                    <li><a href="/HomePage/ProductByType?txtType=LSP2">Cây cảnh trong nhà</a></li>
+                    <li><a href="/HomePage/ProductByType?txtType=LSP3">Cây cảnh để bàn</a></li>
+                    <li><a href="/HomePage/ProductByType?txtType=LSP4">Cây cảnh loại to</a></li>
+                    <li><a href="/HomePage/ProductByType?txtType=LSP5">Cây dây leo</a></li>
+                </ul>
+            </div>
+
+            <h1>Lọc sản phẩm</h1>
+            <div>
+                <div class="check">
+                    <h3>Lọc theo giá</h3>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p> <400.000</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox" >
+                        <p>400.000 - 600.000</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>600.000 - 900.000</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>900.000></p>
+                    </div>
+                </div>
+
+                @*<div class="check">
+                    <h3>Lọc theo màu sắc</h3>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Đen</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Trắng</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Hồng</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Xám</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Xanh</p>
+                    </div>
+                </div>
+                <div class="check">
+                    <h3>Lọc theo kích cỡ</h3>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Nhỏ</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Trung Bình</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>To</p>
+                    </div>
+                </div>*@
+            </div>
+
+            <h1>Ưu đãi</h1>
+            <div class="uudai">
+                <div class="flasssale">
+                    <div class="sale">
+                        <h4>FLASS SALE</h4>
+                        <p><a href="sanpham.html">Xem thêm</a> </p>
+                    </div>
+
+                    <div id="countdown" class="countdown">
+                        <div class="time">
+                            <h2 id="days">30</h2>
+                            <small>Ngày</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="hours">21</h2>
+                            <small>Giờ</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="minutes">53</h2>
+                            <small>Phút</small>
+                        </div>
+
+                        <div class="time">
+                            <h2 id="seconds">50</h2>
+                            <small>Giây</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+
+
+    </section>
+    <div style="text-align:center;padding-bottom:20px;">
+        <h3>Tổng số lượng sản phẩm: @ViewBag.SLSP</h3>
+    </div>
+    <div class="page-btn">
+        <span>&#60;</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#62;</span>
+    </div>
+    <section class="danhgia">
+        <div class="heading">
+            <h2>đánh giá</h2>
+        </div>
+        <div class="danhgia-container">
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Hài lòng</p>
+                <h2>Hải</h2>
+                <img src="~/Content/User/image/rev1.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Trên cả tuyệt vời</p>
+                <h2>Hiếu</h2>
+                <img src="~/Content/User/image/rev2.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Hài lòng</p>
+                <h2>Hoa</h2>
+                <img src="~/Content/User/image/rev3.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/User/image/app-2store.png">
+                        <img src="~/Content/User/image/google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="~/Content/User/image/logo.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i>hello@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        const days = document.getElementById('days');
+        const hours = document.getElementById('hours');
+        const minutes = document.getElementById('minutes');
+        const seconds = document.getElementById('seconds');
+
+        const currentYear = new Date().getFullYear();
+        const newYearTime = new Date(`August 30 2024 ${currentYear + 1} 00:00:00`)
+        // Update countdown time
+        function updateCountdown() {
+            const currentTime = new Date();
+            const diff = newYearTime - currentTime;
+
+            const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+            const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+            const m = Math.floor(diff / 1000 / 60) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+
+            days.innerHTML = d;
+            hours.innerHTML = h < 10 ? '0' + h : h;
+            minutes.innerHTML = m < 10 ? '0' + m : m;
+            seconds.innerHTML = s < 10 ? '0' + s : s;
+        }
+
+        setInterval(updateCountdown, 1000);
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Content/User/scrip/script.js"></script>
+</body>
+
+</html>
